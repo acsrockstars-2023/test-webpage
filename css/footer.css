@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "Adobe Clean";
+    src: url(../adobe-clean-cufonfonts/AdobeCleanBlack.otf);
+}
+
+.top {
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    background: #000;
+    border-radius: 100px;
+    position: sticky;
+    bottom: 50px;
+    margin-right: 20px;
+    float: right;
+}
+
+.top:hover{
+    color: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    position: relative;
+    top: 50px;
+}
+
+.cmp-footer {
+  background-color: #3e3e3e;
+  padding: 32px 32px 16px 32px;
+  padding-left: 2.5rem !important;
+  padding-right: 2.5rem !important;
+}
+
+.cmp-footer__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.logo {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.logo a {
+    padding-right: 30px;
+}
+
+.logo .adobe-logo {
+    width: auto;
+    height: 70px;
+}
+
+   
+
+.vl {
+    border-left: 1px solid white;
+    height: 80px;
+}
+
+/* .fa-x {
+    color: white;
+    padding-right: 15px;
+  } */
+
+.logo .rockstar-logo {
+    width: auto;
+    height: 80px;
+    padding-left: 2rem;
+}
+
+.content ul {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+
+ul li {
+    padding-right: 35px;
+    font-family: "Adobe Clean Light", sans-serif;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.cmp-footer__bottom {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icons a {
+    padding-right: 20px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+
+.copyright p {
+    color: #707070;
+    float: right;
+    font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        justify-content: center;
+    }
+    
+    .col-sm-6.logo>a:nth-child(3){
+        padding-right: 0;
+    }
+
+    .content {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .cmp-footer__bottom {
+        padding-top: 0;
+    }
+
+    .social-icons {
+        text-align: center;
+    }
+
+    .copyright{
+        padding-top: 1rem;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .copyright p{
+        text-align: center;
+    }
+}
