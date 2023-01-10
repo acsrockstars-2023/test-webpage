@@ -1,11 +1,11 @@
 # test-webpage
 
-# To see changes, use "git pull"
+# To see changes, use [git pull]
 Make sure you git pull regularly and add all html code in the index.html file. 
 Keep your css files separate.
 
-# For adding new or updated files, use "git add ."
+# For adding new or updated files, use [git add .]
 
-# Use "git commit", and add your commit message.
+# Use [git commit -m "your message"], and add your commit message in place of "your message".
 
-# Finally, use "git push" to push your changes in the github repository.
+# Finally, use [git push] to push your changes in the github repository.
