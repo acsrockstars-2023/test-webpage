@@ -1,0 +1,124 @@
+
+@font-face {
+    font-family: "Adobe Clean";
+    src: url(../adobe-clean-cufonfonts/AdobeCleanBlack.otf);
+  } */
+
+  
+.fixed-top.scrolled {
+    background-color: rgb(0, 0, 0, 0.7) !important;
+    transition: background-color 0.5s;
+}
+  
+.fixed-top.scrolled .nav-link-1 {
+    color: white;
+}
+
+/*Header*/
+.navbar .navbar-brand{
+    margin: 0;
+}
+
+.navbar .navbar-brand .header-navbar-logo{
+    padding-left: 4rem;
+    width: 60%;
+
+}
+.collapse {
+    justify-content: center;
+  }
+  
+  .navbar.navbar-dark.navbar-expand-lg {
+ 
+  }
+  
+  .nav-bar {
+    font-style: normal;
+  }
+  
+  .nav {
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+  }
+  
+  nav{
+    min-height: 6rem;
+  }
+  
+  .nav-item {
+    font-family: "Adobe Clean Light", sans-serif;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 0;
+  }
+  
+  .nav-link-1 {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    width: 25%;
+    transition: all 0.5s;
+    font-weight: bolder;
+  }
+  
+  .nav-link-1:hover {
+    font-size: 1.2rem;
+    text-decoration: underline;
+    color: white;
+    width: 20%;
+  }
+  
+  @media screen and (max-width: 991.5px) {
+
+    .navbar .navbar-brand{
+        margin: 0;
+    }
+    
+    .navbar .navbar-brand .header-navbar-logo{
+       
+        width: 50%;
+    
+    }
+    .navbar.navbar-dark.navbar-expand-lg {
+      padding: 1.5rem;
+    }
+  
+    .nav-item {
+      padding: 1rem 0 1rem 0;
+      display: block;
+    }
+  
+  }
+
+  @media screen and (max-width: 441.5px) {
+
+    .navbar .navbar-brand{
+        margin: 0;
+    }
+    
+    .navbar .navbar-brand .header-navbar-logo{
+        padding-left: 0;
+    
+        width: 20%;
+    
+    }
+    .navbar.navbar-dark.navbar-expand-lg {
+     
+    }
+  
+  }
+
+  .for-bg{
+    background-image: url("../images/carousel-bg.png");
+  }
+
+  .full-carousel{
+    padding: 3rem 10rem;
+  }
+
+  @media screen and (max-width: 800px){
+    .full-carousel{
+        padding: 1rem 5rem;
+    }
+  }
