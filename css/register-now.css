@@ -28,6 +28,10 @@ body {
     height: 100%; */
 }
 
+#countdown > ul {
+  padding: 0px;
+}
+
 .register-now-container {
   height: 30vw;
   align-items: center;
