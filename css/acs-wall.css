@@ -83,6 +83,15 @@
     color: #eb100e;
 }
 
+.about-acs span,
+.acs-testimonials span{
+    font-size: small;
+}
+
+.acs-testimonials span{
+    margin-left: 1rem;
+}
+
 .about-acs h3 {
     font-weight: lighter;
 }

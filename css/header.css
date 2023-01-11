@@ -15,10 +15,6 @@
 /*Header*/
 
 
-.navbar .container{
-  /* flex-wrap: nowrap !important; */
-}
-
 .navbar .navbar-brand {
     margin: 0;
 }
@@ -33,7 +29,6 @@
     justify-content: center;
 }
 
-.navbar.navbar-dark.navbar-expand-lg {}
 
 .nav-bar {
     font-style: normal;
@@ -111,15 +106,6 @@ nav {
         width: 20%;
 
     }
-    .navbar.navbar-dark.navbar-expand-lg {
-     
-    }
-
-/*     
-    .navbar .container .collapse ul li{
-      font-size: 0.5rem;
-    } */
-  
   }
 
 
@@ -166,12 +152,12 @@ nav {
 
 @media screen and (max-width: 800px) {
     .full-carousel {
-        padding: 1rem 5rem;
+        padding: 1rem 5rem 2rem 5rem;
     }
 }
 
 @media screen and (max-width: 400px) {
     .full-carousel {
-        padding: 0 5rem 1rem 5rem;
+        padding: 0 5rem 2rem 5rem;
     }
 }
