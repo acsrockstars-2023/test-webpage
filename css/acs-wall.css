@@ -41,6 +41,10 @@
     gap: 3rem;
 }
 
+.about-acs h2{
+    font-weight: bolder;
+}
+
 .para-text, 
 .about-acs span,
 .about-acs h2,
