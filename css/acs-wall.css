@@ -85,6 +85,14 @@
     font-size: smaller;
 }
 
+@media screen and (max-width: 714.5px) {
+
+    .acs-testimonials{
+        margin-top: 2rem !important;
+    }
+    
+}
+
 .about-acs span,
 .acs-testimonials span,
 .icon-text {
@@ -94,6 +102,7 @@
 .about-acs span,
 .acs-testimonials span{
     font-size: small;
+    font-weight: bolder;
 }
 
 .acs-testimonials span{
@@ -112,11 +121,11 @@
     background-color: #6E2C90 !important;
 }
 
-.carousel-indicators {
+.wall-section .carousel-indicators {
     margin-bottom: -2rem !important;
 }
 
-.carousel-inner .carousel-item .card {
+.wall-section .carousel-inner .carousel-item .card {
     height: 15rem;
     border-radius: 5rem;
     background-color: #F5F5F5;
@@ -124,7 +133,7 @@
 }
 
 @media screen and (max-width: 800px) {
-    .carousel-inner .carousel-item .card {
+    .wall-section .carousel-inner .carousel-item .card {
         height: 15rem;
         width: 20rem;
         border-radius: 5rem;
@@ -132,7 +141,7 @@
 }
 
 @media screen and (max-width: 746.5px) and (min-width: 447.5px) {
-    .carousel-inner .carousel-item .card {
+    .wall-section .carousel-inner .carousel-item .card {
         
         margin: auto;
         width: 20rem;
@@ -142,7 +151,7 @@
 }
 
 @media screen and (max-width: 447.5px) {
-    .carousel-inner .carousel-item .card {
+    .wall-section .carousel-inner .carousel-item .card {
         
         margin: auto;
         width: 15rem;
@@ -155,7 +164,8 @@
 .carousel-inner .carousel-item .card .card-body {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
+    justify-content: center;
     gap: 0.5rem;
     padding: 1rem;
 }

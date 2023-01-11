@@ -3,8 +3,8 @@
     src: url(../adobe-clean-cufonfonts/AdobeCleanBlack.otf);
 }
 
-.top {
-    /* text-decoration: none;
+/* .top {
+    text-decoration: none;
     padding: 10px; */
     /* padding-left: 2rem; */
     /* color: #fff;
@@ -13,12 +13,12 @@
     position: sticky;
     bottom: 50px;
     margin-right: 20px;
-    float: right; */
+    float: right;
 }
 
 .top:hover {
     color: #fff;
-}
+} */
 
 body {
     margin: 0;
@@ -29,7 +29,6 @@ footer {
     position: relative;
     background-color: #3e3e3e;
 
-    top: 50px;
     /* padding: 1rem 8rem; */
 }
 
