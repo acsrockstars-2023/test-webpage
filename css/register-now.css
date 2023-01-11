@@ -2,22 +2,22 @@
 @font-face {
     font-family: "Adobe Clean";
     src: url(../adobe-clean-cufonfonts);
-  }
+}
 
 :root {
-  --smaller: 0.75;
+    --smaller: 0.75;
 }
 
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html,
 body {
-  height: 100%;
-  margin: 0;
+    height: 100%;
+    margin: 0;
 }
 
 #register-now {
@@ -29,14 +29,14 @@ body {
 }
 
 .register-now-container {
-  height: 30vw;
-  align-items: center;
-  background: rgb(203,0,255);
-  background: linear-gradient(90deg, rgba(203,0,255,1) 0%, rgba(206,5,240,1) 3%, rgba(231,47,142,1) 45%, rgba(232,48,139,1) 46%, rgba(248,75,75,1) 81%, rgba(255,86,51,1) 100%);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-family: "Adobe Clean";
+    height: 30vw;
+    align-items: center;
+    background: rgb(203, 0, 255);
+    background: linear-gradient(90deg, rgba(203, 0, 255, 1) 0%, rgba(206, 5, 240, 1) 3%, rgba(231, 47, 142, 1) 45%, rgba(232, 48, 139, 1) 46%, rgba(248, 75, 75, 1) 81%, rgba(255, 86, 51, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Adobe Clean";
 }
 
 .countdown-container {
@@ -45,38 +45,38 @@ body {
 }
 
 #countdown {
-  color: white;
-  margin: 0 auto;
-  text-align: center;
-  flex: 1;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    flex: 1;
 }
 
-#countdown > ul > li {
-  height: 8vw;
-  width: 8vw;
-  display: inline-block;
-  font-size: 1vw;
-  list-style-type: none;
-  padding: 0.25em 1em;
-  /* text-transform: uppercase; */
-  border-style: solid;
-  border-width: 0.4em;
-  border-color: white;
-  margin-right: .5%;
-  margin-left: .5%;
+#countdown>ul>li {
+    height: 8vw;
+    width: 8vw;
+    display: inline-block;
+    font-size: 1vw;
+    list-style-type: none;
+    padding: 0.25em 1em;
+    /* text-transform: uppercase; */
+    border-style: solid;
+    border-width: 0.4em;
+    border-color: white;
+    margin-right: .5%;
+    margin-left: .5%;
 }
 
-#countdown > ul > li hr {
-  border: 0;
-  /* border-top: 1px solid #8c8c8c; */
-  border-bottom: 1px solid #fff;
-  margin: 0 0 0.5em 0;
+#countdown>ul>li hr {
+    border: 0;
+    /* border-top: 1px solid #8c8c8c; */
+    border-bottom: 1px solid #fff;
+    margin: 0 0 0.5em 0;
 }
 
-#countdown > ul > li span {
-  display: block;
-  font-size: 3vw;
-  font-weight: bolder;
+#countdown>ul>li span {
+    display: block;
+    font-size: 3vw;
+    font-weight: bolder;
 }
 
 .btn-register-now {
@@ -84,7 +84,7 @@ body {
 }
 
 .register-now-svg {
-  width: 25vw;
+    width: 25vw;
 }
 
 /* .emoji {
@@ -98,26 +98,26 @@ body {
 } */
 
 @media all and (max-width: 768px) {
-  .register-now-container {
-    height: 60vw;
-  }
+    .register-now-container {
+        height: 60vw;
+    }
 
-  #countdown > ul > li {
-    height: 16vw;
-    width: 16vw;
-    padding: 0.25em 1em;
-    font-size: 2vw;
-  }
+    #countdown>ul>li {
+        height: 16vw;
+        width: 16vw;
+        padding: 0.25em 1em;
+        font-size: 2vw;
+    }
 
-  #countdown > ul > li span {
-    font-size: 6vw;
-  }
+    #countdown>ul>li span {
+        font-size: 6vw;
+    }
 
-  .btn-register-now {
-    padding-top: 4vw;
-  }
+    .btn-register-now {
+        padding-top: 4vw;
+    }
 
-  .register-now-svg {
-    width: 45vw;
-  }
+    .register-now-svg {
+        width: 45vw;
+    }
 }

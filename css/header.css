@@ -1,18 +1,13 @@
-
 @font-face {
     font-family: "Adobe Clean";
     src: url(../adobe-clean-cufonfonts/AdobeCleanBlack.otf);
-  } */
+}
 
-
-  
-
-  
-.fixed-top.scrolled {
+*/ .fixed-top.scrolled {
     background-color: rgb(0, 0, 0, 0.7) !important;
     transition: background-color 0.5s;
 }
-  
+
 .fixed-top.scrolled .nav-link-1 {
     color: white;
 }
@@ -20,119 +15,143 @@
 /*Header*/
 
 
-.navbar .container{
-  flex-wrap: nowrap !important;
+.navbar .container {
+    flex-wrap: nowrap !important;
 }
-.navbar .navbar-brand{
+
+.navbar .navbar-brand {
     margin: 0;
 }
 
-.navbar .navbar-brand .header-navbar-logo{
+.navbar .navbar-brand .header-navbar-logo {
     padding-left: 4rem;
     width: 60%;
 
 }
+
 .collapse {
     justify-content: center;
-  }
-  
-  .navbar.navbar-dark.navbar-expand-lg {
- 
-  }
-  
-  .nav-bar {
+}
+
+.navbar.navbar-dark.navbar-expand-lg {}
+
+.nav-bar {
     font-style: normal;
-  }
-  
-  .nav {
+}
+
+.nav {
     text-align: center;
     height: 100px;
     line-height: 100px;
-  }
-  
-  nav{
+}
+
+nav {
     min-height: 6rem;
-  }
-  
-  .nav-item {
+}
+
+.nav-item {
     font-family: "Adobe Clean Light", sans-serif;
     margin-left: 2rem;
     /* margin-right: 2rem; */
     padding: 0;
-  }
-  
-  .nav-link-1 {
+}
+
+.nav-link-1 {
     font-size: 1rem;
     color: white;
     text-decoration: none;
     width: 25%;
     transition: all 0.5s;
     font-weight: bolder;
-  }
-  
-  .nav-link-1:hover {
+}
+
+.nav-link-1:hover {
     font-size: 1.2rem;
     text-decoration: underline;
     color: white;
     width: 20%;
-  }
-  
-  @media screen and (max-width: 991.5px) {
+}
 
-    .navbar .navbar-brand{
+@media screen and (max-width: 991.5px) {
+
+    .navbar .navbar-brand {
         margin: 0;
     }
-    
-    .navbar .navbar-brand .header-navbar-logo{
-       
+
+    .navbar .navbar-brand .header-navbar-logo {
+
         width: 50%;
-    
+
     }
+
     .navbar.navbar-dark.navbar-expand-lg {
-      padding: 1.5rem;
+        padding: 1.5rem;
     }
-  
+
     .nav-item {
-      padding: 1rem 0 1rem 0;
-      display: block;
+        padding: 1rem 0 1rem 0;
+        display: block;
     }
-  
-  }
 
-  @media screen and (max-width: 441.5px) {
+}
 
-    .navbar .navbar-brand{
+@media screen and (max-width: 441.5px) {
+
+    .navbar .navbar-brand {
         margin: 0;
     }
-    
-    .navbar .navbar-brand .header-navbar-logo{
+
+    .navbar .navbar-brand .header-navbar-logo {
         padding-left: 0;
-    
+
         width: 20%;
-    
-    }
-    .navbar.navbar-dark.navbar-expand-lg {
-     
-    }
-  
-  }
 
-  .for-bg{
+    }
+
+    .navbar.navbar-dark.navbar-expand-lg {}
+
+}
+
+.for-bg {
     background-image: url("../images/carousel-bg.png");
-  }
+}
 
-  .full-carousel{
+.carousel-indicators button {
+    height: 0.5rem !important;
+    width: 0.5rem !important;
+    margin: 0 0.5rem !important;
+    border-radius: 100%;
+    
+}
+
+.full-carousel {
     padding: 3rem 10rem;
-  }
+}
 
-  @media screen and (max-width: 800px){
-    .full-carousel{
+.full-carousel .carousel .carousel-control-prev{
+    left: -3.5rem;
+}
+
+.full-carousel .carousel .carousel-control-next {
+    right: -3.5rem;
+}
+
+.full-carousel .carousel .carousel-control-prev-icon {
+    filter: invert(100%);
+}
+
+.full-carousel .carousel .carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+@media screen and (max-width: 800px) {
+    .full-carousel {
         padding: 1rem 5rem;
     }
-  }
+}
 
-  @media screen and (max-width: 400px){
-    .full-carousel{
+@media screen and (max-width: 400px) {
+    .full-carousel {
         padding: 0 5rem 1rem 5rem;
     }
-  }
+}

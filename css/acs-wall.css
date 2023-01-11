@@ -1,0 +1,127 @@
+/* .about-rockstars {
+    margin: auto;
+    width: 70%;
+    padding: 4rem;
+    background-color: white;
+  }
+  
+  .para-text {
+    border-radius: 1rem;
+    word-wrap: break-word;
+    text-align: justify;
+  }
+  
+  .icon-text {
+    font-size: 1.5rem;
+    color: #eb1000;
+  }
+  
+  .icons {
+    fill: purple;
+    width: 1.5rem;
+    margin: 10px;
+  }
+  
+  .year {
+    font-size: 1.7rem;
+  }
+  
+  .display-inline {
+    display: inline-flex;
+  }
+   */
+
+@font-face {
+    font-family: "Adobe Clean";
+    src: url(../adobe-clean-cufonfonts);
+}
+
+.wall-section {
+    padding: 2rem 7rem 0 7rem;
+    gap: 3rem;
+}
+
+.para-text, 
+.about-acs span,
+.about-acs h2,
+.about-acs h3,
+.acs-testimonials span,
+.icon-text,
+.card-body{
+    font-family: "Adobe Clean Regular";
+}
+
+.acs-icons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.event-info {
+    display: flex;
+    gap: 1rem;
+}
+
+.icon-img {
+    font-size: 2rem;
+    background-image: linear-gradient(to right, #6E2C90, #D9207D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon-text {
+    font-weight: bold;
+    font-size: smaller;
+}
+
+.about-acs span,
+.acs-testimonials span,
+.icon-text {
+    color: #eb100e;
+}
+
+.about-acs h3 {
+    font-weight: lighter;
+}
+
+.acs-testimonials .carousel-indicators button {
+    height: 0.5rem !important;
+    width: 0.5rem !important;
+    margin: 0 0.5rem !important;
+    border-radius: 100%;
+    background-color: #6E2C90 !important;
+}
+
+.carousel-indicators {
+    margin-bottom: -2rem !important;
+}
+
+.carousel-inner .carousel-item .card {
+    height: 15rem;
+    border-radius: 5rem;
+    background-color: #F5F5F5;
+    margin: 1rem;
+}
+
+.carousel-inner .carousel-item .card .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.carousel-inner .carousel-item .card .card-body p{
+    margin-top: 2rem;
+}
+
+/* .carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 1.5rem!important;
+    height: 1.5rem!important;
+}
+
+.acs-testimonials .carousel .carousel-control-next-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%236E2C90' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.acs-testimonials .carousel .carousel-control-prev-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%236E2C90' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+} */
