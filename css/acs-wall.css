@@ -41,6 +41,14 @@
     gap: 3rem;
 }
 
+@media screen and (max-width: 950px) {
+    .wall-section {
+        padding: 2rem 4rem 0 4rem;
+        gap: 1rem;
+    }
+}
+
+
 .about-acs h2{
     font-weight: bolder;
 }
@@ -115,6 +123,35 @@
     margin: 1rem;
 }
 
+@media screen and (max-width: 800px) {
+    .carousel-inner .carousel-item .card {
+        height: 15rem;
+        width: 20rem;
+        border-radius: 5rem;
+    }
+}
+
+@media screen and (max-width: 746.5px) and (min-width: 447.5px) {
+    .carousel-inner .carousel-item .card {
+        
+        margin: auto;
+        width: 20rem;
+
+    }
+    
+}
+
+@media screen and (max-width: 447.5px) {
+    .carousel-inner .carousel-item .card {
+        
+        margin: auto;
+        width: 15rem;
+
+    }
+    
+}
+
+
 .carousel-inner .carousel-item .card .card-body {
     display: flex;
     flex-direction: column;
@@ -126,7 +163,6 @@
 .carousel-inner .carousel-item .card .card-body p{
     margin-top: 2rem;
 }
-
 /* .carousel-control-next-icon, .carousel-control-prev-icon{
     width: 1.5rem!important;
     height: 1.5rem!important;
