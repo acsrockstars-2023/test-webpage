@@ -128,6 +128,7 @@
 
 
 
+  
   @media screen and (max-width: 377.5px) {
     .navbar-brand{
       width: 70%;
@@ -138,7 +139,7 @@
     background-image: url("../images/carousel-bg.png");
   }
 
-  
+
   .full-carousel{
     padding: 3rem 10rem;
   }
