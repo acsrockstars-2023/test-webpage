@@ -171,6 +171,16 @@ li a:hover {
         padding-top: 1rem;
     }
 
+    .social-icons a {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .col-sm-6.content>ul>li {
+        padding-right: 17.5px;
+        padding-left: 17.5px;
+    }
+
     .logo {
         justify-content: center;
     }
@@ -183,6 +193,10 @@ li a:hover {
     .content {
         padding-top: 2rem;
         padding-bottom: 1rem;
+    }
+
+    .content ul {
+        padding-top: 0;
     }
 
     .cmp-footer__bottom {
