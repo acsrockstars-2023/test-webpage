@@ -43,6 +43,12 @@ body {
     justify-content: center;
     font-family: "Adobe Clean";
 }
+.register-now-container p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: x-large;
+    color: white;
+}
 
 .countdown-container {
     display: flex;
