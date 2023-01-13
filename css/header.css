@@ -12,6 +12,10 @@
     color: white;
 }
 
+/* .bg-rr{
+    background-color: black;
+} */
+
 /*Header*/
 
 
@@ -137,19 +141,6 @@ nav {
 .full-carousel {
     padding: 3rem 10rem;
     position: relative;
-}
-
-.full-carousel .carousel-item{
-/* position:relative; */
-}
-
-.full-carousel .carousel-item .banner-item-1{
-    /* position: absolute; */
-    margin-top: -10rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-size: smaller;
 }
 
 .full-carousel .carousel .carousel-control-prev{
