@@ -68,6 +68,10 @@
     gap: 1.5rem;
 }
 
+.acs-icons a{
+    text-decoration: none;
+}
+
 .event-info {
     display: flex;
     gap: 1rem;

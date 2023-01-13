@@ -41,12 +41,12 @@
 @media (min-width: 768px) {
     .photo-gallery .carousel-inner .carousel-item-end.active,
     .photo-gallery .carousel-inner .carousel-item-next {
-    transform: translateX(40%);
+    transform: translateX(25%);
   }
 
   .photo-gallery .carousel-inner .carousel-item-start.active,
   .photo-gallery .carousel-inner .carousel-item-prev {
-    transform: translateX(-40%);
+    transform: translateX(-25%);
   }
 }
 

@@ -29,7 +29,13 @@ body {
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
-    justify-content: center;
+    
+}
+
+@media screen and (max-width: 886.5px){
+    .for-flex{
+        justify-content: center;
+    }
 }
 
 footer {
@@ -90,6 +96,11 @@ footer {
     padding-left: 2rem;
 }
 
+@media screen and (max-width: 575.5px) {
+    .content ul{
+        justify-content: center;
+    }
+}
 
 .content{
     justify-content: end;
