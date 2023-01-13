@@ -4,6 +4,9 @@
     src: url(../adobe-clean-cufonfonts);
 }
 
+.for-flex{
+    gap: 2rem;
+}
 :root {
     --smaller: 0.75;
 }
@@ -28,6 +31,7 @@ body {
     width: 100%;
     height: 100%; */
 }
+
 
 #countdown > ul {
   padding: 0px;

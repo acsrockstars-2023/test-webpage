@@ -25,6 +25,13 @@ body {
     padding: 0;
 }
 
+.for-flex{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 footer {
     position: relative;
     background-color: #3e3e3e;
