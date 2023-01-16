@@ -3,9 +3,9 @@
     src: url(../adobe-clean-cufonfonts/AdobeCleanBlack.otf);
 }
 
-/* .rr-desc{
-   
-} */
+.rr-desc{
+    background-image: url("../images/rr-bg.png"); 
+}
 
 .rr-2{
     font-size: large;
@@ -44,7 +44,7 @@ hr{
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: black
+    color: white;
 
 }
 
@@ -57,9 +57,9 @@ hr{
   -moz-text-fill-color: transparent;
 }
 
-.rr-bottom {
-    background-image: url("../images/rr-bg.png"); 
-}
+/* .rr-bottom {
+    
+} */
 
 .inside-bg {
     padding: 3rem 6rem 2rem 6rem;
