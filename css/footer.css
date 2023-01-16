@@ -3,6 +3,7 @@
     src: url(../adobe-clean-cufonfonts/AdobeCleanBlack.otf);
 }
 
+
 /* .top {
     text-decoration: none;
     padding: 10px; */
@@ -24,6 +25,12 @@ body {
     margin: 0;
     padding: 0;
 }
+
+body a{
+    text-decoration: none;
+}
+
+
 
 .for-flex{
     display: flex;
@@ -162,13 +169,15 @@ li a:hover {
 
 }
 
+.content .register-now-btn a{
+    color: white;
+}
+
 .content .register-now-btn h6 {
 
-    color: white;
+    /* color: white !important; */
     padding-bottom: 1rem;
     /* margin-right: 7rem; */
-
-
 }
 
 .content .register-now-btn button {

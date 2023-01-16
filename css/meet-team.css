@@ -58,6 +58,9 @@ float: right;
   color: black;
 font-size: 0.9rem;
 width: 70%;
+display: flex;
+flex-direction: column;
+justify-content: center;
 }
 
 
