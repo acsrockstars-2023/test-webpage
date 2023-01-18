@@ -5,11 +5,10 @@ $("#navbar-scroll-acs").on("click", function (event) {
     $("html, body").animate(
       {
         scrollTop: $(hash).offset().top,
-      },
-      750,
-      function () {
+      }, 300, function () {
         window.location.hash = hash;
       }
     );
   }
 });
+
