@@ -1,14 +1,13 @@
 @font-face {
-    font-family: "Adobe Clean";
-    src: url(../adobe-clean-cufonfonts/AdobeCleanBlack.otf);
+  font-family: "Adobe Clean";
+  src: url(../adobe-clean-cufonfonts/AdobeCleanBlack.otf);
 }
-
 
 /* .top {
     text-decoration: none;
     padding: 10px; */
-    /* padding-left: 2rem; */
-    /* color: #fff;
+/* padding-left: 2rem; */
+/* color: #fff;
     background: #000;
     border-radius: 100px;
     position: sticky;
@@ -22,74 +21,67 @@
 } */
 
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-body a{
-    text-decoration: none;
+body a {
+  text-decoration: none;
 }
 
-
-
-.for-flex{
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-    
+.for-flex {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
-@media screen and (max-width: 886.5px){
-    .for-flex{
-        justify-content: center;
-    }
+@media screen and (max-width: 886.5px) {
+  .for-flex {
+    justify-content: center;
+  }
 }
 
 footer {
-    position: relative;
-    background-color: #3e3e3e;
+  position: relative;
+  background-color: #3e3e3e;
 
-    /* padding: 1rem 8rem; */
+  /* padding: 1rem 8rem; */
 }
 
 .cmp-footer {
-    background-color: #3e3e3e;
-    /* padding: 32px 32px 16px 32px; */
-    padding-left: 2.5rem !important;
-    padding-right: 2.5rem !important;
+  background-color: #3e3e3e;
+  /* padding: 32px 32px 16px 32px; */
+  padding-left: 2.5rem !important;
+  padding-right: 2.5rem !important;
 }
 
 .cmp-footer__top {
-    display: flex;
-    justify-content: space-between;
-    margin: auto;
-    width: auto;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: auto;
 
-    /* margin-right: 4rem; */
+  /* margin-right: 4rem; */
 }
 
-
-
 .logo {
-    display: flex;
-    justify-items: center;
-    align-items: center;
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
 
 .logo a {
-    padding-right: 30px;
+  padding-right: 30px;
 }
 
 .logo .adobe-logo {
-    width: auto;
-    height: 70px;
+  width: auto;
+  height: 70px;
 }
 
-
-
 .vl {
-    border-left: 1px solid white;
-    height: 80px;
+  border-left: 1px solid white;
+  height: 80px;
 }
 
 /* .fa-x {
@@ -98,172 +90,158 @@ footer {
   } */
 
 .logo .rockstar-logo {
-    width: auto;
-    height: 80px;
-    padding-left: 2rem;
+  width: auto;
+  height: 80px;
+  padding-left: 2rem;
 }
 
 @media screen and (max-width: 575.5px) {
-    .content ul{
-        justify-content: center;
-    }
+  .content ul {
+    justify-content: center;
+  }
 }
 
-.content{
-    justify-content: end;
-    padding: 0 2rem;
+.content {
+  justify-content: end;
+  padding: 0 2rem;
 }
 
 .content ul {
-    display: flex;
-    list-style: none;
-    /* justify-content: end; */
-    padding-top: 2.5rem;
-    padding-left: 0;
+  display: flex;
+  list-style: none;
+  /* justify-content: end; */
+  padding-top: 2.5rem;
+  padding-left: 0;
 }
 
 ul li {
-    padding-right: 35px;
-    font-family: "Adobe Clean Light", sans-serif;
+  padding-right: 35px;
+  font-family: "Adobe Clean Light", sans-serif;
 }
 
 li a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 
 li a:hover {
-    text-decoration: underline;
-    color: white;
+  text-decoration: underline;
+  color: white;
 }
 
 .cmp-footer__bottom {
-    padding-top: 50px;
-    display: flex;
-    justify-content: space-between;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .social-icons a {
-    padding-right: 20px;
+  padding-right: 20px;
 }
 
 .icon {
-    width: 1.25rem;
-    height: 1.25rem;
+  width: 1.25rem;
+  height: 1.25rem;
 }
 
 .copyright p {
-    color: #707070;
-    float: right;
-    font-size: 0.8rem;
-    margin-right: 2rem;
-    /* text-transform: capitalize; */
+  color: #707070;
+  float: right;
+  font-size: 0.8rem;
+  margin-right: 2rem;
+  /* text-transform: capitalize; */
 }
-
 
 .content .register-now-btn {
-    /* justify-content: end; */
-    /* margin-left: 8rem; */
-    /* margin: 0rem 10rem 0.5rem 0rem; */
-
+  /* justify-content: end; */
+  /* margin-left: 8rem; */
+  /* margin: 0rem 10rem 0.5rem 0rem; */
 }
 
-.content .register-now-btn a{
-    color: white;
+.content .register-now-btn a {
+  color: white;
 }
 
 .content .register-now-btn h6 {
-
-    /* color: white !important; */
-    padding-bottom: 1rem;
-    /* margin-right: 7rem; */
+  /* color: white !important; */
+  padding-bottom: 1rem;
+  /* margin-right: 7rem; */
 }
 
 .content .register-now-btn button {
-    background-color: #EB1000;
-    border-radius: 0.3rem;
-    border: none;
-    color: white;
-    padding: 0.5rem 2rem;
-    font-size: 1.15rem;
-
+  background-color: #eb1000;
+  border-radius: 0.3rem;
+  border: none;
+  color: white;
+  padding: 0.5rem 2rem;
+  font-size: 1.15rem;
 }
 
-
-
 @media only screen and (max-width: 600px) {
-    footer {
-        /* top:20rem */
-        padding-top: 1rem;
-    }
+  footer {
+    /* top:20rem */
+    padding-top: 1rem;
+  }
 
-    .social-icons a {
-        padding-right: 10px;
-        padding-left: 10px;
-    }
+  .social-icons a {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 
-    .col-sm-6.content>ul>li {
-        padding-right: 17.5px;
-        padding-left: 17.5px;
-    }
+  .col-sm-6.content > ul > li {
+    padding-right: 17.5px;
+    padding-left: 17.5px;
+  }
 
-    .logo {
-        justify-content: center;
-    }
+  .logo {
+    justify-content: center;
+  }
 
-    .col-sm-6.logo>a:nth-child(3) {
-        padding-right: 0;
-    }
+  .col-sm-6.logo > a:nth-child(3) {
+    padding-right: 0;
+  }
 
+  .content {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
 
-    .content {
-        padding-top: 2rem;
-        padding-bottom: 1rem;
-    }
+  .content ul {
+    padding-top: 0;
+  }
 
-    .content ul {
-        padding-top: 0;
-    }
+  .cmp-footer__bottom {
+    padding-top: 0;
+  }
 
-    .cmp-footer__bottom {
-        padding-top: 0;
-    }
+  .social-icons {
+    text-align: center;
+  }
 
-    .social-icons {
-        text-align: center;
-    }
+  .copyright {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
 
-    .copyright {
-        padding-top: 1rem;
-        display: flex;
-        justify-content: center;
+  .copyright p {
+    text-align: center;
+  }
 
-    }
+  .content .register-now-btn div {
+    display: flex;
+    justify-content: center;
+  }
 
-    .copyright p {
-        text-align: center;
-    }
+  .content .register-now-btn h6 {
+    color: white;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin: 1rem;
+    text-align: center;
+  }
 
-
-
-    .content .register-now-btn div{
-        display: flex;
-        justify-content: center;
-    }
-
-
-    .content .register-now-btn h6 {
-
-        color: white;
-        padding-bottom: 1rem;
-        padding-top: 1rem;
-        margin: 1rem;
-        text-align: center;
-
-
-    }
-
-    .content .register-now-btn button {}
-
+  .content .register-now-btn button {
+  }
 }

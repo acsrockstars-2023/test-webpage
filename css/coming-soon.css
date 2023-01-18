@@ -1,67 +1,71 @@
 @font-face {
-    font-family: "Adobe Clean";
-    src: url(../adobe-clean-cufonfonts);
+  font-family: "Adobe Clean";
+  src: url(../adobe-clean-cufonfonts);
 }
 
 .coming-soon p {
-    font-family: "Adobe Clean";
-    background-color: white;
-    background-image: linear-gradient(45deg, #D20BE1, #CA403B);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+  font-family: "Adobe Clean";
+  background-color: white;
+  background-image: linear-gradient(45deg, #d20be1, #ca403b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 
-    font-size: 3rem;
-    font-weight: bolder;
+  font-size: 3rem;
+  font-weight: bolder;
 }
 
 .coming-soon {
-    display: flex;
-    justify-content: center;
-    padding-top: 10rem;
+  display: flex;
+  justify-content: center;
+  padding-top: 10rem;
 }
 
-.btn-for-home{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
+.btn-for-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 
-.btn-for-home button{
-    padding: 1rem;
-    border-radius: 5px;
-    border: solid 3px transparent;
-    /* background-color: #2B1F0D; */
-    /* background-color: #78e4ff; */
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #D20BE1, #CA403B);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    box-shadow: 2px 1000px 1px #fff inset;
+.btn-for-home button {
+  padding: 1rem;
+  border-radius: 5px;
+  border: solid 3px transparent;
+  /* background-color: #2B1F0D; */
+  /* background-color: #78e4ff; */
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(101deg, #d20be1, #ca403b);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
 }
 
-.btn-for-home button span{
-    font-family: "Adobe Clean";
-    font-size: large;
-    background-color: white;
-  background-image: linear-gradient(45deg,#D20BE1, #CA403B);
+.btn-for-home button span {
+  font-family: "Adobe Clean";
+  font-size: large;
+  background-color: white;
+  background-image: linear-gradient(45deg, #d20be1, #ca403b);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
 
 .btn-for-home button:hover {
-    box-shadow: none;
-    color: white;
+  box-shadow: none;
+  color: white;
 }
 
-.btn-for-home button:hover span{
-    background-color: white;
-    background-image: linear-gradient(45deg, white, white);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+.btn-for-home button:hover span {
+  background-color: white;
+  background-image: linear-gradient(45deg, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
