@@ -19,13 +19,14 @@
 /*Header*/
 
 
-.bg-rr .navbar-nav .nav-item .nav-link-1{
+.bg-rr .navbar-nav .nav-item .nav-link-1 {
     color: black;
 }
 
-.for-bg-team .navbar-nav .nav-item .nav-link-1{
+.for-bg-team .navbar-nav .nav-item .nav-link-1 {
     color: black;
 }
+
 .navbar .navbar-brand {
     margin: 0;
 }
@@ -59,7 +60,7 @@ nav {
     margin-left: 2rem;
     /* margin-right: 2rem; */
     padding: 0;
-    
+
 }
 
 .nav-link-1 {
@@ -99,12 +100,13 @@ nav {
         padding: 1rem 0 1rem 0;
         display: block;
     }
-/* 
+
+    /* 
     .navbar .container .collapse ul li{
       font-size: 0.5rem;
     } */
-  
-  }
+
+}
 
 @media screen and (max-width: 441.5px) {
 
@@ -118,20 +120,20 @@ nav {
         width: 20%;
 
     }
-  }
+}
 
 
 
-  
-  @media screen and (max-width: 377.5px) {
-    .navbar-brand{
-      width: 70%;
+
+@media screen and (max-width: 377.5px) {
+    .navbar-brand {
+        width: 70%;
     }
-  }
+}
 
-  .for-bg{
+.for-bg {
     background-image: url("../images/carousel-bg.png");
-  }
+}
 
 
 .carousel-indicators button {
@@ -139,7 +141,7 @@ nav {
     width: 0.5rem !important;
     margin: 0 0.5rem !important;
     border-radius: 100%;
-    
+
 }
 
 .full-carousel {
@@ -147,12 +149,24 @@ nav {
     position: relative;
 }
 
-.full-carousel .carousel .carousel-control-prev{
+
+.full-carousel .carousel .carousel-control-prev {
     left: -6rem;
 }
 
 .full-carousel .carousel .carousel-control-next {
     right: -6rem;
+}
+
+
+@media screen and (min-width: 1280px) and (max-width: 1660px) {
+    .full-carousel .carousel .carousel-control-prev {
+        left: -9rem;
+    }
+
+    .full-carousel .carousel .carousel-control-next {
+        right: -9rem;
+    }
 }
 
 
