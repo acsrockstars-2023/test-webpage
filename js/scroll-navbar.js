@@ -11,4 +11,3 @@ $("#navbar-scroll-acs").on("click", function (event) {
     );
   }
 });
-

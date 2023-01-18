@@ -15,11 +15,11 @@ body {
   margin-top: 2.5rem;
 }
 
-.cmp-carousel {
+/* .cmp-carousel {
   width: 50%;
   margin: auto;
   padding: 2rem;
-}
+} */
 
 .photo-gallery h1 {
   font-weight: bolder;
@@ -30,8 +30,7 @@ body {
 }
 
 .photo-gallery .carousel-item {
-  gap: 1rem;
-  width: 32rem;
+  transition: .4s !important;
 }
 
 @media (max-width: 767px) {
@@ -47,6 +46,7 @@ body {
 .photo-gallery .carousel-inner .carousel-item-next,
 .photo-gallery .carousel-inner .carousel-item-prev {
   display: flex;
+  gap: 1rem;
 }
 
 /* medium and up screens */
