@@ -30,7 +30,7 @@ body {
 }
 
 .photo-gallery .carousel-item {
-  transition: .2s !important;
+  transition: .1s !important;
 }
 
 @media (max-width: 767px) {
