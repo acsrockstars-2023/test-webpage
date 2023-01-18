@@ -1,58 +1,57 @@
 @font-face {
-    font-family: "Adobe Clean";
-    src: url(../adobe-clean-cufonfonts/AdobeCleanBlack.otf);
+  font-family: "Adobe Clean";
+  src: url(../adobe-clean-cufonfonts/AdobeCleanBlack.otf);
 }
 
-.rr-desc{
-    background-image: url("../images/rr-bg.png"); 
+.rr-desc {
+  background-image: url("../images/rr-bg.png");
 }
 
-.rr-2{
-    font-size: large;
+.rr-2 {
+  font-size: large;
 }
 
-.center-align span{
-    background-image: linear-gradient(45deg, #D20BE1, #CA403B);
+.center-align span {
+  background-image: linear-gradient(45deg, #d20be1, #ca403b);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
 
-hr{
-    border-top: 2px solid white!important;
-    margin:auto !important;
-    width: 50% !important;
+hr {
+  border-top: 2px solid white !important;
+  margin: auto !important;
+  width: 50% !important;
 }
 
 .text {
-    font-family: "Adobe Clean Regular";
+  font-family: "Adobe Clean Regular";
 }
 
 .text-2 {
-    font-family: "Adobe Clean";
+  font-family: "Adobe Clean";
 }
-.center-align{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-weight: bolder;
-    text-align: center;
+.center-align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bolder;
+  text-align: center;
 }
 .rr-top {
-    padding: 3rem 9rem 2rem 9rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-
+  padding: 3rem 9rem 2rem 9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
 }
 
-.rr-top .text-2{
-    background-color: white;
-  background-image: linear-gradient(45deg, #D20BE1, #CA403B);
+.rr-top .text-2 {
+  background-color: white;
+  background-image: linear-gradient(45deg, #d20be1, #ca403b);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
@@ -62,70 +61,71 @@ hr{
 } */
 
 .inside-bg {
-    padding: 3rem 6rem 2rem 6rem;
+  padding: 3rem 6rem 2rem 6rem;
 }
 
 .awards {
-    display: flex;
-    gap: 1rem;
-    margin: 2rem 0;
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
 }
 
 .nomination-buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    margin: 3rem 0;
-    padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 3rem 0;
+  padding-bottom: 2rem;
 }
 
 .nom-items {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .nom-items button {
-    border-radius: 5px;
-    border: solid 3px transparent;
-    /* background-color: #2B1F0D; */
-    /* background-color: #78e4ff; */
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #9C7247, #edc893);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    box-shadow: 2px 1000px 1px #2B1F0D inset;
+  border-radius: 5px;
+  border: solid 3px transparent;
+  /* background-color: #2B1F0D; */
+  /* background-color: #78e4ff; */
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(101deg, #9c7247, #edc893);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #2b1f0d inset;
 }
 
-.nom-items button span{
-
+.nom-items button span {
   background-color: white;
-  background-image: linear-gradient(45deg, #9C7247, #edc893);
+  background-image: linear-gradient(45deg, #9c7247, #edc893);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; 
+  -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
 }
 
 .nom-items button:hover {
-    box-shadow: none;
-    color: white;
+  box-shadow: none;
+  color: white;
 }
 
-.nom-items button:hover span{
-    background-color: white;
-    background-image: linear-gradient(45deg, white, white);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+.nom-items button:hover span {
+  background-color: white;
+  background-image: linear-gradient(45deg, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
 }
-
-
 
 .rr-heading {
-    color: white;
+  color: white;
 }
 
 .rr-text {
-    color: white;
+  color: white;
 }

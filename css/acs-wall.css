@@ -32,142 +32,134 @@
    */
 
 @font-face {
-    font-family: "Adobe Clean";
-    src: url(../adobe-clean-cufonfonts);
+  font-family: "Adobe Clean";
+  src: url(../adobe-clean-cufonfonts);
 }
 
 .wall-section {
-    padding: 2rem 7rem 0 7rem;
-    gap: 3rem;
+  padding: 2rem 7rem 0 7rem;
+  gap: 3rem;
 }
 
 @media screen and (max-width: 950px) {
-    .wall-section {
-        padding: 2rem 4rem 0 4rem;
-        gap: 1rem;
-    }
+  .wall-section {
+    padding: 2rem 4rem 0 4rem;
+    gap: 1rem;
+  }
 }
 
-
-.about-acs h2{
-    font-weight: bolder;
+.about-acs h2 {
+  font-weight: bolder;
 }
 
-.para-text, 
+.para-text,
 .about-acs span,
 .about-acs h2,
 .about-acs h3,
 .acs-testimonials span,
 .icon-text,
-.card-body{
-    font-family: "Adobe Clean Regular";
+.card-body {
+  font-family: "Adobe Clean Regular";
 }
 
 .acs-icons {
-    display: flex;
-    gap: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
 }
 
-.acs-icons a{
-    text-decoration: none;
+.acs-icons a {
+  text-decoration: none;
 }
 
 .event-info {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .icon-img {
-    font-size: 2rem;
-    background-image: linear-gradient(to right, #6E2C90, #D9207D);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  background-image: linear-gradient(to right, #6e2c90, #d9207d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .icon-text {
-    font-weight: bold;
-    font-size: smaller;
+  font-weight: bold;
+  font-size: smaller;
 }
 
 @media screen and (max-width: 714.5px) {
-
-    .acs-testimonials{
-        margin-top: 2rem !important;
-    }
-    
+  .acs-testimonials {
+    margin-top: 2rem !important;
+  }
 }
 
 .about-acs span,
 .acs-testimonials span,
 .icon-text {
-    color: #eb100e;
+  color: #eb100e;
 }
 
 .about-acs span,
-.acs-testimonials span{
-    font-size: small;
-    font-weight: bolder;
+.acs-testimonials span {
+  font-size: small;
+  font-weight: bolder;
 }
 
-.acs-testimonials span{
-    margin-left: 1rem;
+.acs-testimonials span {
+  margin-left: 1rem;
 }
 
 .about-acs h3 {
-    font-weight: lighter;
+  font-weight: lighter;
 }
 
 .acs-testimonials .carousel-indicators button {
-    height: 0.5rem !important;
-    width: 0.5rem !important;
-    margin: 0 0.5rem !important;
-    border-radius: 100%;
-    background-color: #6E2C90 !important;
+  height: 0.5rem !important;
+  width: 0.5rem !important;
+  margin: 0 0.5rem !important;
+  border-radius: 100%;
+  background-color: #6e2c90 !important;
 }
 
 .carousel-indicators {
-    margin-bottom: -2rem !important;
+  margin-bottom: -2rem !important;
 }
 
 .wall-section .carousel-inner .carousel-item .card {
-    height: 15rem;
-    border-radius: 2rem;
-    background-color: #F5F5F5;
-    margin: 1rem;
+  height: 15rem;
+  border-radius: 2rem;
+  background-color: #f5f5f5;
+  margin: 1rem;
 }
 
 @media screen and (max-width: 800px) {
-    .wall-section .carousel-inner .carousel-item .card {
-        height: 15rem;
-        width: 20rem;
-        border-radius: 5rem;
-    }
+  .wall-section .carousel-inner .carousel-item .card {
+    height: 15rem;
+    width: 20rem;
+    border-radius: 5rem;
+  }
 }
 
 @media screen and (max-width: 746.5px) and (min-width: 447.5px) {
-    .wall-section .carousel-inner .carousel-item .card {
-        
-        margin: auto;
-        width: 20rem;
-
-    }
-    
+  .wall-section .carousel-inner .carousel-item .card {
+    margin: auto;
+    width: 20rem;
+  }
 }
 
 @media screen and (max-width: 447.5px) {
-    .wall-section .carousel-inner .carousel-item .card {
-        
-        margin: auto;
-        width: 15rem;
-
-    }
-    
+  .wall-section .carousel-inner .carousel-item .card {
+    margin: auto;
+    width: 15rem;
+  }
 }
 
-.card-container{
-    padding: 2rem;
+.card-container {
+  padding: 2rem;
 }
 
+<<<<<<< HEAD
 
 .acs-testimonials .carousel-inner .carousel-item .card .card-body {
     display: flex;
@@ -180,6 +172,19 @@
 
 .acs-testimonials .carousel-inner .carousel-item .card .card-body p{
     margin-top: 2rem;
+=======
+.carousel-inner .carousel-item .card .card-body {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.carousel-inner .carousel-item .card .card-body p {
+  margin-top: 2rem;
+>>>>>>> 29e9d46f2d9dd47ea2902a1db652e10915c513cc
 }
 /* .carousel-control-next-icon, .carousel-control-prev-icon{
     width: 1.5rem!important;

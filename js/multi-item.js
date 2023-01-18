@@ -1,4 +1,6 @@
-let items = document.querySelectorAll(".photo-gallery .carousel .carousel-item");
+let items = document.querySelectorAll(
+  ".photo-gallery .carousel .carousel-item"
+);
 
 items.forEach((el) => {
   const minPerSlide = 3;
