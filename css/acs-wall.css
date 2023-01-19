@@ -188,6 +188,25 @@
     margin-top: 2rem;
 }
 
+.carousel-inner .carousel-item .card .card-body .card-img{
+    width: 30%;
+}
+
+.flex-this{
+    display: flex;
+}
+
+.carousel-card-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carousel-inner .carousel-item .card .card-body .card-img img{
+    border-radius: 50%;
+    width: 85%;
+}
+
 /* .carousel-control-next-icon, .carousel-control-prev-icon{
     width: 1.5rem!important;
     height: 1.5rem!important;
