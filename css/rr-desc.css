@@ -3,12 +3,36 @@
   src: url(../adobe-clean-cufonfonts/AdobeCleanBlack.otf);
 }
 
+.for-grad-line{
+    height: 0.5rem;
+    background: rgb(203, 0, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(203, 0, 255, 1) 0%,
+      rgba(206, 5, 240, 1) 3%,
+      rgba(231, 47, 142, 1) 45%,
+      rgba(232, 48, 139, 1) 46%,
+      rgba(248, 75, 75, 1) 81%,
+      rgba(255, 86, 51, 1) 100%
+    );
+}
+
 .rr-desc {
-  background-image: url("../images/rr-bg.png");
+    background-image: url("../images/rr-bg.png");
 }
 
 .rr-2 {
+    /* background-image: url("../images/rr-bg.png"); */
   font-size: large;
+}
+
+.bg-rr{
+    /* background-image: url("../images/rr-bg.png"); */
+    /* background-color: black; */
+}
+
+.bg-rr .navbar-nav .nav-item .nav-link-1{
+    color: black;
 }
 
 .center-align span {
@@ -17,6 +41,7 @@
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
+  font-size: x-large;
 }
 
 hr {
@@ -56,18 +81,33 @@ hr {
   -moz-text-fill-color: transparent;
 }
 
-/* .rr-bottom {
-    
-} */
+.rr-bottom {
+    /* background-image: url("../images/rr-bg.png"); */
+}   
 
 .inside-bg {
-  padding: 3rem 6rem 2rem 6rem;
+  padding: 3rem 6rem 2rem 2rem;
 }
 
 .awards {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
   margin: 2rem 0;
+}
+
+.awards img{
+    flex: 1;
+    width: 22%
+}
+
+@media screen and (max-width: 1060px){
+    .awards img{
+        display: none;
+    }
+}
+
+.awards .awards-desc{
+    flex: 7;
 }
 
 .nomination-buttons {
@@ -75,13 +115,20 @@ hr {
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  margin: 3rem 0;
-  padding-bottom: 2rem;
+  margin: 3rem 10rem;
+  /* padding-bottom: 2rem; */
 }
 
 .nom-items {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nom-items img{
+    width: 90%;
 }
 
 .nom-items button {
