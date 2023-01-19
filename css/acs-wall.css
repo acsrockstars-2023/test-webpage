@@ -149,7 +149,7 @@
     .wall-section .carousel-inner .carousel-item .card {
         height: 15rem;
         width: 20rem;
-        border-radius: 5rem;
+        border-radius: 2rem;
     }
 }
 
@@ -168,7 +168,7 @@
 }
 
 .card-container {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .carousel-item {
