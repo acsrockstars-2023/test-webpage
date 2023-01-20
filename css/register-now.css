@@ -76,12 +76,13 @@ body {
     font-family: "Adobe Clean";
 }
 
-.register-now-container p {
+.register-now-container .headline{
     margin-top: 0;
     margin-bottom: 1rem;
     font-size: xx-large;
     color: white;
 }
+
 
 .countdown-container {
     display: flex;
@@ -110,7 +111,7 @@ body {
     /* text-transform: uppercase; */
     /* border-style: solid;
   border-width: 0.4em; */
-    border: solid 3px white;
+    border: solid 5px white;
     /* border-color: white; */
     /* background-image: linear-gradient(
     rgba(255, 255, 255, 0),
@@ -144,6 +145,7 @@ box-shadow: 2px 1000px 1px #fff inset; */
   -moz-text-fill-color: transparent; */
     color: white;
     font-size: small;
+    font-weight: 600;
     /* margin: 0 auto;
   text-align: center; */
 }
@@ -151,7 +153,7 @@ box-shadow: 2px 1000px 1px #fff inset; */
 #countdown>ul>li hr {
     border: 0;
     /* border-top: 1px solid #8c8c8c; */
-    border-bottom: 1px solid #fff;
+    border-bottom: 2px solid #fff;
     margin: 0 0 0.5em 0;
 }
 
