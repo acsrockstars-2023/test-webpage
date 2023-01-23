@@ -153,12 +153,6 @@ li a:hover {
   /* text-transform: capitalize; */
 }
 
-.content .register-now-btn {
-  /* justify-content: end; */
-  /* margin-left: 8rem; */
-  /* margin: 0rem 10rem 0.5rem 0rem; */
-}
-
 .content .register-now-btn a {
   color: white;
 }
@@ -242,6 +236,5 @@ li a:hover {
     text-align: center;
   }
 
-  .content .register-now-btn button {
-  }
+  
 }
