@@ -59,22 +59,23 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link-1" href="index.html">HOME</a>
+                        <a class="nav-link-1" href="index.html" onclick="onClickAnchor()">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link-1" id="navbar-scroll-acs" href="#Rockstars-2023_Section">ABOUT ROCKSTARS</a>
+                        <a class="nav-link-1" id="navbar-scroll-acs" href="#Rockstars-2023_Section"
+                            onclick="onClickAnchor()">ABOUT ROCKSTARS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link-1" href="coming-soon.html">AGENDA</a>
+                        <a class="nav-link-1" href="coming-soon.html" onclick="onClickAnchor()">AGENDA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link-1" href="rewards-recognition.html">R&R</a>
+                        <a class="nav-link-1" href="rewards-recognition.html" onclick="onClickAnchor()">R&R</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link-1" href="coming-soon.html">GALLERY</a>
+                        <a class="nav-link-1" href="coming-soon.html" onclick="onClickAnchor()">GALLERY</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link-1" href="team.html">TEAM</a>
+                        <a class="nav-link-1" href="team.html" onclick="onClickAnchor()">TEAM</a>
                     </li>
                 </ul>
             </div>
@@ -553,6 +554,22 @@
     </footer>
 
     <!-- <a href="#nav-for-top" class="top"><i class="fa-solid fa-arrow-up"></i></a> -->
+
+    <script>
+        let linkName, linkURL;
+        function onClickAnchor() {
+            linkName = event.target.text;
+            linkURL = event.target.href;
+            console.log(linkName);
+            window.adobeDataLayer.push({
+                "event": "Link Click",
+                "link": {
+                    "name": linkName,
+                    "URL": linkURL
+                }
+            })
+        }
+    </script>
 
     <script src="js/countdown-timer.js"></script>
     <script src="js/multi-item.js"></script>

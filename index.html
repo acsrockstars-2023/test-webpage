@@ -39,11 +39,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
 
-    <script src="https://assets.adobedtm.com/375dd7124b0f/5e39d7d199b9/launch-6dee1a748917-development.min.js" async></script>
+    <script src="https://assets.adobedtm.com/375dd7124b0f/5e39d7d199b9/launch-6dee1a748917-development.min.js"
+        async></script>
+    <script>
+        //Initializing the data layer on the window object
+        window.adobeDataLayer = window.adobeDataLayer || [];
+    </script>
 </head>
 
 <body>
     <!-- Nav bar -->
+
 
     <nav class="navbar navbar-light navbar-expand-lg bg-for-hp">
         <div class="container">
@@ -57,26 +63,29 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link-1" href="index.html">HOME</a>
+                        <a class="nav-link-1" href="index.html" onclick="onClickAnchor()">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link-1" id="navbar-scroll-acs" href="#Rockstars-2023_Section">ABOUT ROCKSTARS</a>
+                        <a class="nav-link-1" id="navbar-scroll-acs" href="#Rockstars-2023_Section"
+                            onclick="onClickAnchor()">ABOUT ROCKSTARS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link-1" href="coming-soon.html">AGENDA</a>
+                        <a class="nav-link-1" href="coming-soon.html" onclick="onClickAnchor()">AGENDA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link-1" href="rewards-recognition.html">R&R</a>
+                        <a class="nav-link-1" href="rewards-recognition.html" onclick="onClickAnchor()">R&R</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link-1" href="coming-soon.html">GALLERY</a>
+                        <a class="nav-link-1" href="coming-soon.html" onclick="onClickAnchor()">GALLERY</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link-1" href="team.html">TEAM</a>
+                        <a class="nav-link-1" href="team.html" onclick="onClickAnchor()">TEAM</a>
                     </li>
                 </ul>
             </div>
+
         </div>
+
     </nav>
     <div class="for-grad-line"></div>
     <div class="for-b">
@@ -435,42 +444,42 @@
                         <div class="carousel-item active">
                             <div class="col-md-4">
                                 <div class="card-img">
-                                    <img src="images/img-1.JPG" class="img-fluid" />
+                                    <img src="images/gallery/img-1.JPG" class="img-fluid" />
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="col-md-4">
                                 <div class="card-img">
-                                    <img src="images/img-2.JPG" class="img-fluid" />
+                                    <img src="images/gallery/img-2.JPG" class="img-fluid" />
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="col-md-4">
                                 <div class="card-img">
-                                    <img src="images/img-3.JPG" class="img-fluid" />
+                                    <img src="images/gallery/img-3.JPG" class="img-fluid" />
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="col-md-4">
                                 <div class="card-img">
-                                    <img src="images/img-4.JPG" class="img-fluid" />
+                                    <img src="images/gallery/img-4.JPG" class="img-fluid" />
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="col-md-4">
                                 <div class="card-img">
-                                    <img src="images/img-5.JPG" class="img-fluid" />
+                                    <img src="images/gallery/img-5.JPG" class="img-fluid" />
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <div class="col-md-4">
                                 <div class="card-img">
-                                    <img src="images/img-6.JPG" class="img-fluid" />
+                                    <img src="images/gallery/img-6.JPG" class="img-fluid" />
                                 </div>
                             </div>
                         </div>
@@ -546,6 +555,21 @@
 
     <!-- <a href="#nav-for-top" class="top"><i class="fa-solid fa-arrow-up"></i></a> -->
 
+    <script>
+        let linkName, linkURL;
+        function onClickAnchor() {
+            linkName = event.target.text;
+            linkURL = event.target.href;
+            console.log(linkName);
+            window.adobeDataLayer.push({
+                "event": "Link Click",
+                "link": {
+                    "name": linkName,
+                    "URL": linkURL
+                }
+            })
+        }
+    </script>
     <script src="js/countdown-timer.js"></script>
     <script src="js/multi-item.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>

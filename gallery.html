@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/gallery.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/default-skin/default-skin.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe-ui-default.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9 col-sm-offset-2">
+
+                <h1 class="text-center">
+                    Photo Gallery<br/>
+                    <small><em>A trip</em></small>
+                </h1>
+
+                <!-- Galley wrapper that contains all items -->
+                <div id="gallery" class="gallery row" itemscope itemtype="http://schema.org/ImageGallery">
+
+                    <!-- Use figure for a more semantic html -->
+                    <figure class="col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <!-- Link to the big image, not mandatory, but usefull when there is no JS -->
+                        <a href="images/Gallery/img-1.JPG"
+                            data-width="1200" data-height="900" itemprop="contentUrl">
+                            <!-- Thumbnail -->
+                            <img src="images/Gallery/img-1.JPG" itemprop="thumbnail"
+                                alt="Image description">
+                        </a>
+                    </figure>
+
+                    <figure class="col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/Gallery/img-2.JPG"
+                            data-width="1200" data-height="900" itemprop="contentUrl">
+                            <img src="images/Gallery/img-2.JPG" itemprop="thumbnail"
+                                alt="Image description">
+                        </a>
+                    </figure>
+                    <figure class="col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/Gallery/img-3.JPG"
+                            data-width="1200" data-height="900" itemprop="contentUrl">
+                            <img src="images/Gallery/img-3.JPG" itemprop="thumbnail"
+                                alt="Image description">
+                        </a>
+                    </figure>
+                    <figure class="col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/Gallery/img-4.JPG"
+                            data-width="1200" data-height="900" itemprop="contentUrl">
+                            <img src="images/Gallery/img-4.JPG" itemprop="thumbnail"
+                                alt="Image description">
+                        </a>
+                    </figure>
+                    <figure class="col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/Gallery/img-5.JPG"
+                            data-width="1200" data-height="900" itemprop="contentUrl">
+                            <img src="images/Gallery/img-5.JPG" itemprop="thumbnail"
+                                alt="Image description">
+                        </a>
+                    </figure>
+                    <figure class="col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/Gallery/img-6.JPG"
+                            data-width="1200" data-height="900" itemprop="contentUrl">
+                            <img src="images/Gallery/img-6.JPG" itemprop="thumbnail"
+                                alt="Image description">
+                        </a>
+                    </figure>
+                    <figure class="col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/Gallery/img-7.JPG"
+                            data-width="1200" data-height="900" itemprop="contentUrl">
+                            <img src="images/Gallery/img-7.JPG" itemprop="thumbnail"
+                                alt="Image description">
+                        </a>
+                    </figure>
+                    <figure class="col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/Gallery/img-8.JPG"
+                            data-width="1200" data-height="900" itemprop="contentUrl">
+                            <img src="images/Gallery/img-8.JPG" itemprop="thumbnail"
+                                alt="Image description">
+                        </a>
+                    </figure>
+                    <figure class="col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/Gallery/img-9.JPG"
+                            data-width="1200" data-height="900" itemprop="contentUrl">
+                            <img src="images/Gallery/img-9.JPG" itemprop="thumbnail"
+                                alt="Image description">
+                        </a>
+                    </figure>
+                    <figure class="col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/Gallery/img-10.JPG"
+                            data-width="1200" data-height="900" itemprop="contentUrl">
+                            <img src="images/Gallery/img-10.JPG" itemprop="thumbnail"
+                                alt="Image description">
+                        </a>
+                    </figure>
+                    <figure class="col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/Gallery/img-11.JPG" data-width="1200"
+                            data-height="900" itemprop="contentUrl">
+                            <img src="images/Gallery/img-11.JPG" itemprop="thumbnail"
+                                alt="Image description">
+                        </a>
+                    </figure>
+                    <figure class="col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/Gallery/img-12.JPG"
+                            data-width="1200" data-height="900" itemprop="contentUrl">
+                            <img src="images/Gallery/img-12.JPG" itemprop="thumbnail"
+                                alt="Image description">
+                        </a>
+                    </figure>
+                    <figure class="col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/Gallery/img-13.JPG"
+                            data-width="1200" data-height="900" itemprop="contentUrl">
+                            <img src="images/Gallery/img-13.JPG" itemprop="thumbnail"
+                                alt="Image description">
+                        </a>
+                    </figure>
+                    <figure class="col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/Gallery/img-14.JPG"
+                            data-width="1200" data-height="900" itemprop="contentUrl">
+                            <img src="images/Gallery/img-14.JPG" itemprop="thumbnail"
+                                alt="Image description">
+                        </a>
+                    </figure>
+                    <figure class="col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/Gallery/img-15.JPG"
+                            data-width="1200" data-height="900" itemprop="contentUrl">
+                            <img src="images/Gallery/img-15.JPG" itemprop="thumbnail"
+                                alt="Image description">
+                        </a>
+                    </figure>
+                    <figure class="col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/Gallery/img-16.JPG"
+                            data-width="1200" data-height="900" itemprop="contentUrl">
+                            <img src="images/Gallery/img-16.JPG" itemprop="thumbnail"
+                                alt="Image description">
+                        </a>
+                    </figure>
+                    <figure class="col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/Gallery/img-17.JPG"
+                            data-width="1200" data-height="900" itemprop="contentUrl">
+                            <img src="images/Gallery/img-17.JPG" itemprop="thumbnail"
+                                alt="Image description">
+                        </a>
+                    </figure>
+                    <figure class="col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/Gallery/img-18.JPG"
+                            data-width="1200" data-height="900" itemprop="contentUrl">
+                            <img src="images/Gallery/img-18.JPG" itemprop="thumbnail"
+                                alt="Image description">
+                        </a>
+                    </figure>
+                    <figure class="col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/Gallery/img-19.JPG"
+                            data-width="1200" data-height="900" itemprop="contentUrl">
+                            <img src="images/Gallery/img-19.JPG" itemprop="thumbnail"
+                                alt="Image description">
+                        </a>
+                    </figure>
+                    <figure class="col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/Gallery/img-20.JPG"
+                            data-width="1200" data-height="900" itemprop="contentUrl">
+                            <img src="images/Gallery/img-20.JPG" itemprop="thumbnail"
+                                alt="Image description">
+                        </a>
+                    </figure>
+                    <figure class="col-md-3" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                        <a href="images/Gallery/img-21.JPG"
+                            data-width="1200" data-height="900" itemprop="contentUrl">
+                            <img src="images/Gallery/img-21.JPG" itemprop="thumbnail"
+                                alt="Image description">
+                        </a>
+                    </figure>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Some spacing 😉 -->
+    <div class="spacer"></div>
+
+
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- Background of PhotoSwipe. 
+                 It's a separate element as animating opacity is faster than rgba(). -->
+        <div class="pswp__bg"></div>
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+            <!-- Container that holds slides. 
+                    PhotoSwipe keeps only 3 of them in the DOM to save memory.
+                    Don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <!--  Controls are self-explanatory. Order can be changed. -->
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                    <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                    <!-- element will get class pswp__preloader--active when preloader is running -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/gallery.js"></script>
+</body>
+
+</html>
