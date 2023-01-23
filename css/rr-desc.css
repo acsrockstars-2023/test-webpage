@@ -104,7 +104,7 @@ hr {
     width: 22%
 }
 
-@media screen and (max-width: 1060px){
+@media screen and (max-width: 1120px){
     .awards img{
         display: none;
     }
