@@ -20,7 +20,7 @@
   });
 
   // Define click event on gallery item
-  $('a').click(function(event) {
+  $('.gallery-container a').click(function(event) {
 
     // Prevent location change
     event.preventDefault();
