@@ -19,6 +19,10 @@
 
 .rr-desc {
     background-image: url("../images/rr-bg.png");
+    height: 100%;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .rr-2 {
@@ -119,7 +123,7 @@ hr {
   /* padding-bottom: 2rem; */
 }
 
-.nom-items {
+.nom-items-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -127,11 +131,23 @@ hr {
   gap: 1rem;
 }
 
-.nom-items img{
+.nom-items-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nom-items-1 img{
     width: 90%;
 }
 
-.nom-items button {
+.nom-items-2 img{
+  width: 90%;
+}
+
+.nom-items-1 button {
   border-radius: 5px;
   border: solid 3px transparent;
   /* background-color: #2B1F0D; */
@@ -146,7 +162,22 @@ hr {
   box-shadow: 2px 1000px 1px #2b1f0d inset;
 }
 
-.nom-items button span {
+.nom-items-2 button {
+  border-radius: 5px;
+  border: solid 3px transparent;
+  /* background-color: #2B1F0D; */
+  /* background-color: #78e4ff; */
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(101deg, #9c7247, #edc893);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #2b1f0d inset;
+}
+
+.nom-items-1 button span {
   background-color: white;
   background-image: linear-gradient(45deg, #9c7247, #edc893);
   -webkit-background-clip: text;
@@ -155,12 +186,35 @@ hr {
   -moz-text-fill-color: transparent;
 }
 
-.nom-items button:hover {
+.nom-items-2 button span {
+  background-color: white;
+  background-image: linear-gradient(45deg, #9c7247, #edc893);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.nom-items-1 button:hover {
   box-shadow: none;
   color: white;
 }
 
-.nom-items button:hover span {
+.nom-items-2 button:hover {
+  box-shadow: none;
+  color: white;
+}
+
+.nom-items-1 button:hover span {
+  background-color: white;
+  background-image: linear-gradient(45deg, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.nom-items-2 button:hover span {
   background-color: white;
   background-image: linear-gradient(45deg, white, white);
   -webkit-background-clip: text;
@@ -176,3 +230,43 @@ hr {
 .rr-text {
   color: white;
 }
+
+
+@media screen and (max-width: 851px){
+ .nom-items-1 button{
+  font-size: 0.7rem;
+ }
+
+ .nom-items-2 button{
+  font-size: 0.7rem;
+ }
+
+
+ .nom-items-1 img{
+  width: 120%;
+ }
+
+ .nom-items-2 img{
+  width: 120%;
+ }
+}
+
+
+@media screen and (max-width: 620px){
+  .nom-items-1 button{
+   font-size: 0.5rem;
+  }
+ 
+  .nom-items-2 button{
+   font-size: 0.5rem;
+  }
+ 
+ 
+  .nom-items-1 img{
+   width: 160%;
+  }
+ 
+  .nom-items-2 img{
+   width: 160%;
+  }
+ }
