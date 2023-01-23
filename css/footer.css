@@ -91,7 +91,7 @@ footer {
 
 .logo .rockstar-logo {
   width: auto;
-  height: 80px;
+  height: 5.5rem;
   padding-left: 2rem;
 }
 
@@ -151,12 +151,6 @@ li a:hover {
   font-size: 0.8rem;
   margin-right: 2rem;
   /* text-transform: capitalize; */
-}
-
-.content .register-now-btn {
-  /* justify-content: end; */
-  /* margin-left: 8rem; */
-  /* margin: 0rem 10rem 0.5rem 0rem; */
 }
 
 .content .register-now-btn a {
@@ -242,6 +236,5 @@ li a:hover {
     text-align: center;
   }
 
-  .content .register-now-btn button {
-  }
+  
 }

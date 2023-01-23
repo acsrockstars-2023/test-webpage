@@ -15,11 +15,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: "Adobe Clean";
-    background-image: linear-gradient(45deg, #d20be1, #ca403b);
+    /* background-image: linear-gradient(45deg, #d20be1, #ca403b);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
-    -moz-text-fill-color: transparent;
+    -moz-text-fill-color: transparent; */
+    color: black;
     /* font-size: x-large; */
 }
 
@@ -47,6 +48,29 @@
 .card-body-wrapper {
     display: flex;
     padding-top: 1rem;
+    /* background-image: linear-gradient(90deg, #d20be1, #ca403b); */
+    /* background-color: black; */
+    /* border-radius: 1rem; */
+    /* border: transparent solid 0.2rem;
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(101deg, #3d3d3d, grey);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px; */
+  border-radius: 5px;
+  border: solid 3px transparent;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient(90deg, #d20be1, #ca403b);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #e6e6e6 inset;
+    margin: 1rem;
 }
 
 .card-body-wrapper .card-img {
@@ -62,7 +86,7 @@
 
 .card-body-wrapper .card-content {
     padding: 0 2rem 2rem 0;
-    color: black;
+    color:black;
     font-size: 0.9rem;
     width: 70%;
     display: flex;
