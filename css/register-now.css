@@ -168,6 +168,7 @@ box-shadow: 2px 1000px 1px #fff inset; */
 }
 
 .register-now-svg {
+    display: flex;
     width: 13rem;
 }
 
@@ -181,7 +182,19 @@ box-shadow: 2px 1000px 1px #fff inset; */
   padding: 0 0.5rem;
 } */
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 778px) {
+    
+
+    .btn-register-now {
+        padding-top: 4vw;
+    }
+
+    /* .register-now-svg {
+        width: 45vw;
+    } */
+}
+
+@media screen and (max-width: 1100px) {
     .register-now-container {
         height: 60vw;
     }
@@ -196,12 +209,31 @@ box-shadow: 2px 1000px 1px #fff inset; */
     #countdown>ul>li span {
         font-size: 6vw;
     }
-
-    .btn-register-now {
-        padding-top: 4vw;
-    }
-
-    .register-now-svg {
-        width: 45vw;
-    }
+    
 }
+
+@media screen and (max-width: 545px) {
+    .register-now-container {
+        height: 60vw;
+    }
+
+    #countdown>ul>li {
+        height: 22vw;
+        width: 22vw;
+        padding: 0.25em 1em;
+        font-size: 2vw;
+    }
+
+    #countdown>ul>li span {
+        font-size: 6vw;
+    }
+    
+}
+
+/* @media screen and (max-width: 1088px) {
+    #countdown ul li .day{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+} */

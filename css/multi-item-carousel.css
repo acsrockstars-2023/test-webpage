@@ -1,6 +1,12 @@
+@font-face {
+    font-family: "Adobe Clean";
+    src: url(../adobe-clean-cufonfonts);
+}
+
 body {
   scroll-behavior: smooth;
 }
+
 .photo-gallery {
   background: linear-gradient(
     90deg,
@@ -11,8 +17,23 @@ body {
     rgba(248, 75, 75, 1) 81%,
     rgba(255, 86, 51, 1) 100%
   );
-  padding: 2rem 6rem;
+  padding: 2rem 6rem 4rem 6rem;
   margin-top: 2.5rem;
+  position: relative;
+}
+
+.link-anchor{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    right: 5rem;
+    font-family: "Adobe Clean Regular";
+    letter-spacing: 0.1rem;
+}
+
+.link-anchor:hover{
+    text-decoration: underline;
+    color: white;
 }
 
 /* .cmp-carousel {
@@ -27,6 +48,7 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
+  font-family: "Adobe Clean";
 }
 
 .photo-gallery .carousel-item {
