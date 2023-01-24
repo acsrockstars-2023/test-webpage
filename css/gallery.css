@@ -26,6 +26,11 @@ span{
     float: left;
 } */
 
+.memory-text{
+    color: #b8b3b3;
+    letter-spacing: 0.1rem;
+}
+
 .gallery{
     padding: 2rem 0;
     position: relative;
