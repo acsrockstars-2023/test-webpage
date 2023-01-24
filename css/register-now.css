@@ -184,9 +184,22 @@ box-shadow: 2px 1000px 1px #fff inset; */
     /* padding-bottom: 2rem; */
   }
 
-  .nomination-buttons button{
-    width: 13rem;
+  @media screen and (min-width: 400px) {
+    .nomination-buttons button{
+        width: 10rem;
+      }
   }
+
+  @media screen and (max-width: 400px){
+    .nomination-buttons button{
+        width: 9rem;
+      }
+
+      .nom-items-1 button span, .nom-items-2 button span {
+        font-size: small;
+      }
+
+}
 
   
   .nom-items-1 button {
@@ -271,7 +284,8 @@ box-shadow: 2px 1000px 1px #fff inset; */
   padding: 0 0.5rem;
 } */
 
-@media all and (max-width: 778px) {
+
+@media screen and (max-width: 778px) {
 
 
     .btn-register-now {

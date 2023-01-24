@@ -226,7 +226,7 @@ nav {
 
 @media screen and (max-width: 600px) {
     .full-carousel {
-        padding: 1rem;
+        padding: 0;
     }
 
     .full-carousel .carousel-control-next-icon,
@@ -238,6 +238,6 @@ nav {
 
 @media screen and (max-width: 300px) {
     .full-carousel {
-        padding: 0 0 2rem 0;
+        padding: 0;
     }
 }
