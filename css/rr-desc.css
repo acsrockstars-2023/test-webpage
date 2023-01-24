@@ -5,25 +5,25 @@
 
 
 .rr-desc {
-    background-image: url("../images/rr-bg.png");
-    height: 100%;
-    background-position: center;
+  background-image: url("../images/rr-bg.png");
+  height: 100%;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .rr-2 {
-    /* background-image: url("../images/rr-bg.png"); */
+  /* background-image: url("../images/rr-bg.png"); */
   font-size: large;
 }
 
-.bg-rr{
-    /* background-image: url("../images/rr-bg.png"); */
-    /* background-color: black; */
+.bg-rr {
+  /* background-image: url("../images/rr-bg.png"); */
+  /* background-color: black; */
 }
 
-.bg-rr .navbar-nav .nav-item .nav-link-1{
-    color: black;
+.bg-rr .navbar-nav .nav-item .nav-link-1 {
+  color: black;
 }
 
 .center-align span {
@@ -48,6 +48,7 @@ hr {
 .text-2 {
   font-family: "Adobe Clean";
 }
+
 .center-align {
   display: flex;
   flex-direction: column;
@@ -55,8 +56,9 @@ hr {
   font-weight: bolder;
   text-align: center;
 }
+
 .rr-top {
-  padding: 3rem 9rem 2rem 9rem;
+  padding: 3rem 2rem 2rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,11 +75,11 @@ hr {
 }
 
 .rr-bottom {
-    /* background-image: url("../images/rr-bg.png"); */
-}   
+  /* background-image: url("../images/rr-bg.png"); */
+}
 
 .inside-bg {
-  padding: 3rem 6rem 2rem 2rem;
+  padding: 3rem 2rem 2rem 2rem;
 }
 
 .awards {
@@ -86,19 +88,27 @@ hr {
   margin: 2rem 0;
 }
 
-.awards img{
-    flex: 1;
-    width: 22%
+.awards img {
+  flex: 1;
+  width: 22%
 }
 
-@media screen and (max-width: 1120px){
-    .awards img{
-        display: none;
-    }
+@media screen and (max-width: 1120px) {
+  .awards img {
+    display: none;
+  }
+
+  .inside-bg{
+    padding-top: 0;
+  }
+
+  .awards{
+    gap: 0;
+  }
 }
 
-.awards .awards-desc{
-    flex: 7;
+.awards .awards-desc {
+  flex: 7;
 }
 
 .nomination-buttons {
@@ -106,7 +116,7 @@ hr {
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  margin: 3rem 10rem;
+  margin: 3rem 3rem;
   /* padding-bottom: 2rem; */
 }
 
@@ -126,11 +136,11 @@ hr {
   gap: 2rem;
 }
 
-.nom-items-1 img{
-    width: 90%;
+.nom-items-1 img {
+  width: 90%;
 }
 
-.nom-items-2 img{
+.nom-items-2 img {
   width: 90%;
 }
 
@@ -139,10 +149,8 @@ hr {
   border: solid 3px transparent;
   /* background-color: #2B1F0D; */
   /* background-color: #78e4ff; */
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0),
-      rgba(255, 255, 255, 0)
-    ),
+  background-image: linear-gradient(rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)),
     linear-gradient(90deg, #9c7247, #edc893);
   background-origin: border-box;
   background-clip: content-box, border-box;
@@ -154,10 +162,8 @@ hr {
   border: solid 3px transparent;
   /* background-color: #2B1F0D; */
   /* background-color: #78e4ff; */
-  background-image: linear-gradient(
-      rgba(255, 255, 255, 0),
-      rgba(255, 255, 255, 0)
-    ),
+  background-image: linear-gradient(rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)),
     linear-gradient(90deg, #9c7247, #edc893);
   background-origin: border-box;
   background-clip: content-box, border-box;
@@ -219,41 +225,70 @@ hr {
 }
 
 
-@media screen and (max-width: 851px){
- .nom-items-1 button{
-  font-size: 0.7rem;
- }
+@media screen and (max-width: 851px) {
+  .nom-items-1 button {
+    font-size: 0.7rem;
+  }
 
- .nom-items-2 button{
-  font-size: 0.7rem;
- }
+  .nom-items-2 button {
+    font-size: 0.7rem;
+  }
 
-
- .nom-items-1 img{
-  width: 120%;
- }
-
- .nom-items-2 img{
-  width: 120%;
- }
 }
 
 
-@media screen and (max-width: 620px){
-  .nom-items-1 button{
-   font-size: 0.5rem;
+@media screen and (max-width: 620px) {
+  .nom-items-1 button {
+    font-size: 0.5rem;
   }
- 
-  .nom-items-2 button{
-   font-size: 0.5rem;
+
+  .nom-items-2 button {
+    font-size: 0.5rem;
   }
- 
- 
-  .nom-items-1 img{
-   width: 180%;
+
+}
+
+
+
+@media screen and (max-width: 490px) {
+
+
+  .rr-2 {
+    /* background-image: url("../images/rr-bg.png"); */
+    font-size: 1rem;
+    text-align: justify;
   }
- 
-  .nom-items-2 img{
-   width: 180%;
+
+  .text-2{
+    font-size: 1.5rem;
+    
   }
- }
+
+  
+.center-align span {
+  font-size: medium;
+}
+
+.rr-heading{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.rr-text{
+  font-size: 1rem;
+}
+
+}
+
+
+
+@media screen and (max-width: 392px) {
+
+  .nom-items-1 img {
+    width: 130%;
+  }
+
+  .nom-items-2 img {
+    width: 130%;
+  }
+}
