@@ -37,6 +37,10 @@
     border-bottom: 1px solid #707070;
 }
 
+.border-remove{
+    border:none
+}
+
 .container-wrapper {
     padding: 3rem 4rem 0 4rem;
 }
@@ -47,6 +51,7 @@
 
 .card-body-wrapper {
     display: flex;
+    
     padding-top: 1rem;
     /* background-image: linear-gradient(90deg, #d20be1, #ca403b); */
     /* background-color: black; */

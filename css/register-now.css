@@ -178,8 +178,9 @@ box-shadow: 2px 1000px 1px #fff inset; */
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
-    margin: 3rem 3rem;
+    flex-wrap: wrap;
+    /* gap: 3rem; */
+    /* margin: 3rem 3rem; */
     /* padding-bottom: 2rem; */
   }
 
@@ -284,7 +285,7 @@ box-shadow: 2px 1000px 1px #fff inset; */
 
 @media screen and (max-width: 1100px) {
     .register-now-container {
-        height: 60vw;
+        height: 40vw;
     }
 
     #countdown>ul>li {
