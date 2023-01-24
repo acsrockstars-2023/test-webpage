@@ -58,7 +58,7 @@ hr {
 }
 
 .rr-top {
-  padding: 3rem 2rem 2rem 2rem;
+  padding: 3rem 4rem 2rem 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,7 +79,7 @@ hr {
 }
 
 .inside-bg {
-  padding: 3rem 2rem 2rem 2rem;
+  padding: 3rem 3rem 2rem 2rem;
 }
 
 .awards {
@@ -104,6 +104,11 @@ hr {
 
   .awards{
     gap: 0;
+  }
+
+  .rr-top {
+    padding: 3rem 2rem 2rem 2rem;
+    
   }
 }
 
