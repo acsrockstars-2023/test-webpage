@@ -4,6 +4,8 @@
     src: url(../adobe-clean-cufonfonts);
 }
 
+
+
 .for-flex-2 {
     display: flex;
     justify-content: center;
@@ -76,7 +78,7 @@ body {
     font-family: "Adobe Clean";
 }
 
-.register-now-container .headline{
+.register-now-container .headline {
     margin-top: 0;
     margin-bottom: 1rem;
     font-size: xx-large;
@@ -172,6 +174,92 @@ box-shadow: 2px 1000px 1px #fff inset; */
     width: 13rem;
 }
 
+.nomination-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 3rem 3rem;
+    /* padding-bottom: 2rem; */
+  }
+
+  .nomination-buttons button{
+    width: 13rem;
+  }
+
+  
+  .nom-items-1 button {
+    border-radius: 0.8rem;
+    border: solid 3px white;
+    background-image: linear-gradient(90deg, #0364ce, #b0ddff);
+    padding: 1rem;
+    margin: 1rem;
+  }
+  
+  .nom-items-2 button {
+    border-radius: 0.8rem;
+    border: solid 3px white;
+    background-image: linear-gradient(90deg, #da28b6, #f7e3f8);
+    padding: 1rem;
+    margin: 1rem;
+  }
+  
+  .nom-items-1 button span, .nom-items-2 button span {
+    /* background-color: white;
+    background-image: linear-gradient(45deg, #9c7247, #edc893);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent; */
+    color: white;
+    font-family: "Adobe Clean";
+  }
+
+  
+  .nom-items-1 button:hover span{
+    background-color: white;
+  background-image: linear-gradient(45deg, #0364ce, #b0ddff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  }
+  
+  .nom-items-2 button:hover span{
+    background-color: white;
+  background-image: linear-gradient(45deg, #da28b6, #f7e3f8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  }
+  
+  .nom-items-1 button:hover {
+    /* border-radius: 5px; */
+  border: solid 3px transparent;
+  /* background-color: #2B1F0D; */
+  /* background-color: #78e4ff; */
+  background-image: linear-gradient(rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)),
+    linear-gradient(90deg, #0364ce, #b0ddff);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+
+  }
+  
+  .nom-items-2 button:hover {
+    border: solid 3px transparent;
+  background-image: linear-gradient(rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)),
+    linear-gradient(90deg, #da28b6, #f7e3f8);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  box-shadow: 2px 1000px 1px #fff inset;
+
+  }
+
+
 /* .emoji {
   display: none;
   padding: 1rem;
@@ -183,7 +271,7 @@ box-shadow: 2px 1000px 1px #fff inset; */
 } */
 
 @media all and (max-width: 778px) {
-    
+
 
     .btn-register-now {
         padding-top: 4vw;
@@ -209,7 +297,7 @@ box-shadow: 2px 1000px 1px #fff inset; */
     #countdown>ul>li span {
         font-size: 6vw;
     }
-    
+
 }
 
 @media screen and (max-width: 545px) {
@@ -227,7 +315,7 @@ box-shadow: 2px 1000px 1px #fff inset; */
     #countdown>ul>li span {
         font-size: 6vw;
     }
-    
+
 }
 
 /* @media screen and (max-width: 1088px) {
