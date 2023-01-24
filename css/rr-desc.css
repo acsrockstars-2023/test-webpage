@@ -143,7 +143,7 @@ hr {
       rgba(255, 255, 255, 0),
       rgba(255, 255, 255, 0)
     ),
-    linear-gradient(101deg, #9c7247, #edc893);
+    linear-gradient(90deg, #9c7247, #edc893);
   background-origin: border-box;
   background-clip: content-box, border-box;
   box-shadow: 2px 1000px 1px #2b1f0d inset;
@@ -158,7 +158,7 @@ hr {
       rgba(255, 255, 255, 0),
       rgba(255, 255, 255, 0)
     ),
-    linear-gradient(101deg, #9c7247, #edc893);
+    linear-gradient(90deg, #9c7247, #edc893);
   background-origin: border-box;
   background-clip: content-box, border-box;
   box-shadow: 2px 1000px 1px #2b1f0d inset;
