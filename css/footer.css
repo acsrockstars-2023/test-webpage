@@ -38,6 +38,10 @@ body a {
 @media screen and (max-width: 886.5px) {
   .for-flex {
     justify-content: center;
+    gap: .75rem;
+  }
+  body > footer > div > div.row.cmp-footer__top > div.col-sm-6.content > div > div:nth-child(2) > a > button {
+    padding: 0.5rem 1.5rem;
   }
 }
 
