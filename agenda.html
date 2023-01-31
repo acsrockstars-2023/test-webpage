@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+
+
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/agenda.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+
+    <script>
+        //Initializing the data layer on the window object
+        window.adobeDataLayer = window.adobeDataLayer || [];
+    </script>
+
+    <script src="https://assets.adobedtm.com/375dd7124b0f/5e39d7d199b9/launch-6dee1a748917-development.min.js"
+        async></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/default-skin/default-skin.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.3/owl.carousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+
+</head>
+
+<body>
+    <!--Nav bar-->
+    <nav class="navbar navbar-light navbar-expand-lg bg-for-hp">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img class="header-navbar-logo" src="./images/logo-light.png" alt="logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link-1" href="index.html" onclick="onClickAnchor()">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link-1" id="navbar-scroll-acs" href="index.html#Rockstars-2023_Section"
+                            onclick="onClickAnchor()">ABOUT ROCKSTARS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link-1" href="agenda.html.html" onclick="onClickAnchor()">AGENDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link-1" href="rewards-recognition.html" onclick="onClickAnchor()">R&R</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link-1" href="gallery.html" onclick="onClickAnchor()">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link-1" href="team.html" onclick="onClickAnchor()">TEAM</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="for-grad-line"></div>
+
+    <!--Agenda button-->
+    <div class="agenda-section">
+        
+        <div class="top-section">
+            <div class="top-center">
+                <h1>AGENDA</h1>
+            </div>
+            
+            <div class="agenda-buttons">
+                <button class="agenda-bangalore">BANGALORE</button>
+                <button class="agenda-noida">NOIDA</button>
+            </div>
+        </div>
+        <div class="agenda-content">
+            <div class="agenda-content-bangalore">
+                <h3 class="agenda-head">Agenda for Bangalore</h3>
+                <div class="agenda-svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="780.334" height="1857.808"
+                        viewBox="0 0 780.334 1857.808">
+                        <path id="Path_663" data-name="Path 663"
+                            d="M943.27,1992.43v284.761h35.981V1992.43a17.99,17.99,0,1,0-35.981,0Z"
+                            transform="translate(-567.152 -1930.192)" fill="#ff4569" />
+                        <g id="Group_282" data-name="Group 282" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_24" data-name="Ellipse 24" cx="124.529" cy="124.529" r="124.529"
+                                transform="translate(597.456 2106.303) rotate(-45)" fill="#ff4569" />
+                            <path id="Path_664" data-name="Path 664"
+                                d="M653.063,2074.813a124.525,124.525,0,0,0,149.61,152.563l34.067-34.066-144-158.177Z"
+                                fill="#c52c76" />
+                            <circle id="Ellipse_25" data-name="Ellipse 25" cx="107.35" cy="107.35" r="107.35"
+                                transform="translate(666.217 1998.953)" fill="#fff" />
+                        </g>
+                        <g id="Group_283" data-name="Group 283" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_26" data-name="Ellipse 26" cx="33.808" cy="33.808" r="33.808"
+                                transform="translate(923.239 2135.29) rotate(-82.322)" fill="#c52c76" />
+                            <circle id="Ellipse_27" data-name="Ellipse 27" cx="20.436" cy="20.436" r="20.436"
+                                transform="translate(940.824 2085.867)" fill="#fff" />
+                        </g>
+                        <text id="_9_AM_-_10_AM" data-name="9 AM - 10 AM" transform="translate(607.334 133.802)"
+                            fill="#ff4569" font-size="60" font-family="AdobeClean-Black, Adobe Clean" font-weight="800">
+                            <tspan x="-172.71" y="0">9 AM - 10 AM</tspan>
+                        </text>
+                        <rect id="Rectangle_596" data-name="Rectangle 596" width="35.981" height="302.752"
+                            transform="translate(376.118 346.409)" fill="#ffae00" />
+                        <g id="Group_285" data-name="Group 285" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_28" data-name="Ellipse 28" cx="124.529" cy="124.529" r="124.529"
+                                transform="translate(1024.544 2280.269)" fill="#ffae00" />
+                            <path id="Path_668" data-name="Path 668"
+                                d="M1028.569,2373.307a124.529,124.529,0,0,0,149.611,152.564l34.066-34.067-144-158.176Z"
+                                fill="#ff7800" />
+                            <circle id="Ellipse_29" data-name="Ellipse 29" cx="107.35" cy="107.35" r="107.35"
+                                transform="matrix(0.987, -0.16, 0.16, 0.987, 1025.914, 2316.03)" fill="#fff" />
+                        </g>
+                        <g id="Group_286" data-name="Group 286" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_30" data-name="Ellipse 30" cx="33.808" cy="33.808" r="33.808"
+                                transform="translate(913.568 2404.797) rotate(-45)" fill="#ff7800" />
+                            <circle id="Ellipse_31" data-name="Ellipse 31" cx="20.436" cy="20.436" r="20.436"
+                                transform="translate(940.944 2384.361)" fill="#fff" />
+                        </g>
+                        <text id="_10_AM_-_12_PM" data-name="10 AM - 12 PM" transform="translate(181 432.297)"
+                            fill="#ffae00" font-size="60" font-family="AdobeClean-Black, Adobe Clean" font-weight="800">
+                            <tspan x="-180.39" y="0">10 AM - 12 PM</tspan>
+                        </text>
+                        <rect id="Rectangle_597" data-name="Rectangle 597" width="35.981" height="302.752"
+                            transform="translate(376.118 648.571)" fill="#8ac900" />
+                        <g id="Group_287" data-name="Group 287" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_32" data-name="Ellipse 32" cx="124.529" cy="124.529" r="124.529"
+                                transform="translate(597.456 2706.959) rotate(-45)" fill="#8ac900" />
+                            <path id="Path_670" data-name="Path 670"
+                                d="M653.063,2675.469a124.528,124.528,0,0,0,149.61,152.564l34.067-34.067-144-158.177Z"
+                                fill="#458c00" />
+                            <circle id="Ellipse_33" data-name="Ellipse 33" cx="107.35" cy="107.35" r="107.35"
+                                transform="translate(666.217 2599.609)" fill="#fff" />
+                        </g>
+                        <g id="Group_288" data-name="Group 288" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_34" data-name="Ellipse 34" cx="33.808" cy="33.808" r="33.808"
+                                transform="translate(917.088 2688.663) rotate(-22.5)" fill="#458c00" />
+                            <circle id="Ellipse_35" data-name="Ellipse 35" cx="20.436" cy="20.436" r="20.436"
+                                transform="translate(940.824 2686.523)" fill="#fff" />
+                        </g>
+                        <text id="_12_PM_-_2_PM" data-name="12 PM - 2 PM" transform="translate(607.334 734.458)"
+                            fill="#8ac900" font-size="60" font-family="AdobeClean-Black, Adobe Clean" font-weight="800">
+                            <tspan x="-166.5" y="0">12 PM - 2 PM</tspan>
+                        </text>
+                        <rect id="Rectangle_598" data-name="Rectangle 598" width="35.981" height="302.752"
+                            transform="translate(376.118 950.733)" fill="#00d3af" />
+                        <g id="Group_289" data-name="Group 289" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_36" data-name="Ellipse 36" cx="124.529" cy="124.529" r="124.529"
+                                transform="translate(972.963 3009.755) rotate(-45)" fill="#00d3af" />
+                            <path id="Path_672" data-name="Path 672"
+                                d="M1028.569,2978.265a124.525,124.525,0,0,0,149.611,152.563l34.066-34.066-144-158.177Z"
+                                fill="#009b9b" />
+                            <circle id="Ellipse_37" data-name="Ellipse 37" cx="107.35" cy="107.35" r="107.35"
+                                transform="translate(1028.915 2916.965) rotate(-7.324)" fill="#fff" />
+                        </g>
+                        <g id="Group_290" data-name="Group 290" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_38" data-name="Ellipse 38" cx="33.808" cy="33.808" r="33.808"
+                                transform="matrix(0.974, -0.228, 0.228, 0.974, 920.75, 2984.553)" fill="#009b9b" />
+                            <circle id="Ellipse_39" data-name="Ellipse 39" cx="20.436" cy="20.436" r="20.436"
+                                transform="translate(940.944 2989.319)" fill="#fff" />
+                        </g>
+                        <text id="_2_PM_-_3_PM" data-name="2 PM - 3 PM" transform="translate(181 1037.255)"
+                            fill="#00d3af" font-size="60" font-family="AdobeClean-Black, Adobe Clean" font-weight="800">
+                            <tspan x="-156.12" y="0">2 PM - 3 PM</tspan>
+                        </text>
+                        <rect id="Rectangle_599" data-name="Rectangle 599" width="35.981" height="302.751"
+                            transform="translate(376.118 1252.894)" fill="#00aeff" />
+                        <g id="Group_291" data-name="Group 291" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_40" data-name="Ellipse 40" cx="124.529" cy="124.529" r="124.529"
+                                transform="translate(649.038 3183.087)" fill="#00aeff" />
+                            <path id="Path_674" data-name="Path 674"
+                                d="M653.063,3276.125a124.528,124.528,0,0,0,149.61,152.564l34.067-34.067-144-158.176Z"
+                                fill="#007bcf" />
+                            <circle id="Ellipse_41" data-name="Ellipse 41" cx="107.35" cy="107.35" r="107.35"
+                                transform="translate(666.217 3200.266)" fill="#fff" />
+                        </g>
+                        <g id="Group_292" data-name="Group 292" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_42" data-name="Ellipse 42" cx="33.808" cy="33.808" r="33.808"
+                                transform="translate(922.451 3335.54) rotate(-80.736)" fill="#007bcf" />
+                            <circle id="Ellipse_43" data-name="Ellipse 43" cx="20.436" cy="20.436" r="20.436"
+                                transform="translate(940.824 3287.179)" fill="#fff" />
+                        </g>
+                        <text id="_3_PM_-_4_PM" data-name="3 PM - 4 PM" transform="translate(607.334 1335.114)"
+                            fill="#00aeff" font-size="60" font-family="AdobeClean-Black, Adobe Clean" font-weight="800">
+                            <tspan x="-157.2" y="0">3 PM - 4 PM</tspan>
+                        </text>
+                        <path id="Path_677" data-name="Path 677"
+                            d="M979.251,3770.009V3485.248H943.27v284.761a17.99,17.99,0,1,0,35.981,0Z"
+                            transform="translate(-567.152 -1930.192)" fill="#9d33ff" />
+                        <g id="Group_293" data-name="Group 293" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_44" data-name="Ellipse 44" cx="124.529" cy="124.529" r="124.529"
+                                transform="translate(1024.544 3490.184)" fill="#9d33ff" />
+                            <path id="Path_678" data-name="Path 678"
+                                d="M1028.569,3583.222a124.528,124.528,0,0,0,149.611,152.564l34.066-34.067-144-158.176Z"
+                                fill="#7c30c8" />
+                            <circle id="Ellipse_45" data-name="Ellipse 45" cx="107.35" cy="107.35" r="107.35"
+                                transform="matrix(0.987, -0.158, 0.158, 0.987, 1026.14, 3525.631)" fill="#fff" />
+                        </g>
+                        <g id="Group_294" data-name="Group 294" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_46" data-name="Ellipse 46" cx="33.808" cy="33.808" r="33.808"
+                                transform="translate(927.572 3580.905)" fill="#7c30c8" />
+                            <circle id="Ellipse_47" data-name="Ellipse 47" cx="20.436" cy="20.436" r="20.436"
+                                transform="translate(940.944 3594.276)" fill="#fff" />
+                        </g>
+                        <text id="_5_PM_-_6_PM" data-name="5 PM - 6 PM" transform="translate(181 1642.212)"
+                            fill="#9d33ff" font-size="60" font-family="AdobeClean-Black, Adobe Clean" font-weight="800">
+                            <tspan x="-158.1" y="0">5 PM - 6 PM</tspan>
+                        </text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="agenda-content">
+            <div class="agenda-content-noida d-none">
+                <h3 class="agenda-head">Agenda for Noida</h3>
+                <div class="agenda-svg">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="780.334" height="1857.808"
+                        viewBox="0 0 780.334 1857.808">
+                        <path id="Path_663" data-name="Path 663"
+                            d="M943.27,1992.43v284.761h35.981V1992.43a17.99,17.99,0,1,0-35.981,0Z"
+                            transform="translate(-567.152 -1930.192)" fill="#ff4569" />
+                        <g id="Group_282" data-name="Group 282" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_24" data-name="Ellipse 24" cx="124.529" cy="124.529" r="124.529"
+                                transform="translate(597.456 2106.303) rotate(-45)" fill="#ff4569" />
+                            <path id="Path_664" data-name="Path 664"
+                                d="M653.063,2074.813a124.525,124.525,0,0,0,149.61,152.563l34.067-34.066-144-158.177Z"
+                                fill="#c52c76" />
+                            <circle id="Ellipse_25" data-name="Ellipse 25" cx="107.35" cy="107.35" r="107.35"
+                                transform="translate(666.217 1998.953)" fill="#fff" />
+                        </g>
+                        <g id="Group_283" data-name="Group 283" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_26" data-name="Ellipse 26" cx="33.808" cy="33.808" r="33.808"
+                                transform="translate(923.239 2135.29) rotate(-82.322)" fill="#c52c76" />
+                            <circle id="Ellipse_27" data-name="Ellipse 27" cx="20.436" cy="20.436" r="20.436"
+                                transform="translate(940.824 2085.867)" fill="#fff" />
+                        </g>
+                        <text id="_9_AM_-_10_AM" data-name="9 AM - 10 AM" transform="translate(607.334 133.802)"
+                            fill="#ff4569" font-size="60" font-family="AdobeClean-Black, Adobe Clean" font-weight="800">
+                            <tspan x="-172.71" y="0">8 AM - 10 AM</tspan>
+                        </text>
+                        <rect id="Rectangle_596" data-name="Rectangle 596" width="35.981" height="302.752"
+                            transform="translate(376.118 346.409)" fill="#ffae00" />
+                        <g id="Group_285" data-name="Group 285" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_28" data-name="Ellipse 28" cx="124.529" cy="124.529" r="124.529"
+                                transform="translate(1024.544 2280.269)" fill="#ffae00" />
+                            <path id="Path_668" data-name="Path 668"
+                                d="M1028.569,2373.307a124.529,124.529,0,0,0,149.611,152.564l34.066-34.067-144-158.176Z"
+                                fill="#ff7800" />
+                            <circle id="Ellipse_29" data-name="Ellipse 29" cx="107.35" cy="107.35" r="107.35"
+                                transform="matrix(0.987, -0.16, 0.16, 0.987, 1025.914, 2316.03)" fill="#fff" />
+                        </g>
+                        <g id="Group_286" data-name="Group 286" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_30" data-name="Ellipse 30" cx="33.808" cy="33.808" r="33.808"
+                                transform="translate(913.568 2404.797) rotate(-45)" fill="#ff7800" />
+                            <circle id="Ellipse_31" data-name="Ellipse 31" cx="20.436" cy="20.436" r="20.436"
+                                transform="translate(940.944 2384.361)" fill="#fff" />
+                        </g>
+                        <text id="_10_AM_-_12_PM" data-name="10 AM - 12 PM" transform="translate(181 432.297)"
+                            fill="#ffae00" font-size="60" font-family="AdobeClean-Black, Adobe Clean" font-weight="800">
+                            <tspan x="-180.39" y="0">10 AM - 12 PM</tspan>
+                        </text>
+                        <rect id="Rectangle_597" data-name="Rectangle 597" width="35.981" height="302.752"
+                            transform="translate(376.118 648.571)" fill="#8ac900" />
+                        <g id="Group_287" data-name="Group 287" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_32" data-name="Ellipse 32" cx="124.529" cy="124.529" r="124.529"
+                                transform="translate(597.456 2706.959) rotate(-45)" fill="#8ac900" />
+                            <path id="Path_670" data-name="Path 670"
+                                d="M653.063,2675.469a124.528,124.528,0,0,0,149.61,152.564l34.067-34.067-144-158.177Z"
+                                fill="#458c00" />
+                            <circle id="Ellipse_33" data-name="Ellipse 33" cx="107.35" cy="107.35" r="107.35"
+                                transform="translate(666.217 2599.609)" fill="#fff" />
+                        </g>
+                        <g id="Group_288" data-name="Group 288" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_34" data-name="Ellipse 34" cx="33.808" cy="33.808" r="33.808"
+                                transform="translate(917.088 2688.663) rotate(-22.5)" fill="#458c00" />
+                            <circle id="Ellipse_35" data-name="Ellipse 35" cx="20.436" cy="20.436" r="20.436"
+                                transform="translate(940.824 2686.523)" fill="#fff" />
+                        </g>
+                        <text id="_12_PM_-_2_PM" data-name="12 PM - 2 PM" transform="translate(607.334 734.458)"
+                            fill="#8ac900" font-size="60" font-family="AdobeClean-Black, Adobe Clean" font-weight="800">
+                            <tspan x="-166.5" y="0">12 PM - 2 PM</tspan>
+                        </text>
+                        <rect id="Rectangle_598" data-name="Rectangle 598" width="35.981" height="302.752"
+                            transform="translate(376.118 950.733)" fill="#00d3af" />
+                        <g id="Group_289" data-name="Group 289" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_36" data-name="Ellipse 36" cx="124.529" cy="124.529" r="124.529"
+                                transform="translate(972.963 3009.755) rotate(-45)" fill="#00d3af" />
+                            <path id="Path_672" data-name="Path 672"
+                                d="M1028.569,2978.265a124.525,124.525,0,0,0,149.611,152.563l34.066-34.066-144-158.177Z"
+                                fill="#009b9b" />
+                            <circle id="Ellipse_37" data-name="Ellipse 37" cx="107.35" cy="107.35" r="107.35"
+                                transform="translate(1028.915 2916.965) rotate(-7.324)" fill="#fff" />
+                        </g>
+                        <g id="Group_290" data-name="Group 290" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_38" data-name="Ellipse 38" cx="33.808" cy="33.808" r="33.808"
+                                transform="matrix(0.974, -0.228, 0.228, 0.974, 920.75, 2984.553)" fill="#009b9b" />
+                            <circle id="Ellipse_39" data-name="Ellipse 39" cx="20.436" cy="20.436" r="20.436"
+                                transform="translate(940.944 2989.319)" fill="#fff" />
+                        </g>
+                        <text id="_2_PM_-_3_PM" data-name="2 PM - 3 PM" transform="translate(181 1037.255)"
+                            fill="#00d3af" font-size="60" font-family="AdobeClean-Black, Adobe Clean" font-weight="800">
+                            <tspan x="-156.12" y="0">2 PM - 3 PM</tspan>
+                        </text>
+                        <rect id="Rectangle_599" data-name="Rectangle 599" width="35.981" height="302.751"
+                            transform="translate(376.118 1252.894)" fill="#00aeff" />
+                        <g id="Group_291" data-name="Group 291" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_40" data-name="Ellipse 40" cx="124.529" cy="124.529" r="124.529"
+                                transform="translate(649.038 3183.087)" fill="#00aeff" />
+                            <path id="Path_674" data-name="Path 674"
+                                d="M653.063,3276.125a124.528,124.528,0,0,0,149.61,152.564l34.067-34.067-144-158.176Z"
+                                fill="#007bcf" />
+                            <circle id="Ellipse_41" data-name="Ellipse 41" cx="107.35" cy="107.35" r="107.35"
+                                transform="translate(666.217 3200.266)" fill="#fff" />
+                        </g>
+                        <g id="Group_292" data-name="Group 292" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_42" data-name="Ellipse 42" cx="33.808" cy="33.808" r="33.808"
+                                transform="translate(922.451 3335.54) rotate(-80.736)" fill="#007bcf" />
+                            <circle id="Ellipse_43" data-name="Ellipse 43" cx="20.436" cy="20.436" r="20.436"
+                                transform="translate(940.824 3287.179)" fill="#fff" />
+                        </g>
+                        <text id="_3_PM_-_4_PM" data-name="3 PM - 4 PM" transform="translate(607.334 1335.114)"
+                            fill="#00aeff" font-size="60" font-family="AdobeClean-Black, Adobe Clean" font-weight="800">
+                            <tspan x="-157.2" y="0">3 PM - 4 PM</tspan>
+                        </text>
+                        <path id="Path_677" data-name="Path 677"
+                            d="M979.251,3770.009V3485.248H943.27v284.761a17.99,17.99,0,1,0,35.981,0Z"
+                            transform="translate(-567.152 -1930.192)" fill="#9d33ff" />
+                        <g id="Group_293" data-name="Group 293" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_44" data-name="Ellipse 44" cx="124.529" cy="124.529" r="124.529"
+                                transform="translate(1024.544 3490.184)" fill="#9d33ff" />
+                            <path id="Path_678" data-name="Path 678"
+                                d="M1028.569,3583.222a124.528,124.528,0,0,0,149.611,152.564l34.066-34.067-144-158.176Z"
+                                fill="#7c30c8" />
+                            <circle id="Ellipse_45" data-name="Ellipse 45" cx="107.35" cy="107.35" r="107.35"
+                                transform="matrix(0.987, -0.158, 0.158, 0.987, 1026.14, 3525.631)" fill="#fff" />
+                        </g>
+                        <g id="Group_294" data-name="Group 294" transform="translate(-567.152 -1930.192)">
+                            <circle id="Ellipse_46" data-name="Ellipse 46" cx="33.808" cy="33.808" r="33.808"
+                                transform="translate(927.572 3580.905)" fill="#7c30c8" />
+                            <circle id="Ellipse_47" data-name="Ellipse 47" cx="20.436" cy="20.436" r="20.436"
+                                transform="translate(940.944 3594.276)" fill="#fff" />
+                        </g>
+                        <text id="_5_PM_-_6_PM" data-name="5 PM - 6 PM" transform="translate(181 1642.212)"
+                            fill="#9d33ff" font-size="60" font-family="AdobeClean-Black, Adobe Clean" font-weight="800">
+                            <tspan x="-158.1" y="0">5 PM - 6 PM</tspan>
+                        </text>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Footer-->
+    <footer>
+        <div class="container-fluid cmp-footer">
+            <div class="row cmp-footer__top">
+                <div class="col-sm-6 logo">
+                    <a href="https://www.adobe.com/" target="_blank"> <img src="images/Adobe-Logo.png" alt="Adobe Logo"
+                            class="adobe-logo" /></a>
+                    <!-- <i class="fa-solid fa-x"></i> -->
+                    <div class="vl"></div>
+                    <a href="#"><img src="images/logo.png" alt="Rockstars Logo" class="rockstar-logo" /></a>
+                </div>
+                <div class="col-sm-6 content">
+                    <ul>
+                        <li><a href="https://inside.corp.adobe.com/" target="_blank">Inside Adobe</a></li>
+                        <li>
+                            <a href="https://www.adobe.com/" target="_blank">Adobe Website</a>
+                        </li>
+                        <li>
+                            <a href="coming-soon.html">Event venue</a>
+                        </li>
+                        <!-- <li>
+                        <a href=""> NOMINATE NOW</a>
+                    </li> -->
+                    </ul>
+
+                    <div class="for-flex">
+                        <div class="register-now-btn">
+                            <div>
+                                <button>
+                                    <a href="https://forms.office.com/r/m1ymqjk6H2 " target="_blank">Register
+                                        Now</a>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="register-now-btn">
+                            <a href="rewards-recognition.html"><button>Nominate Now</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row cmp-footer__bottom">
+                <div class="col-sm-6 social-icons">
+                    <a href="https://www.instagram.com/adobe/" target="_blank"><img src="images/Instagram Icon.png"
+                            alt="Instagram Icon" class="icon" /></a>
+                    <a href="https://www.facebook.com/Adobe/" target="_blank"><img src="images/Facebook Icon.png"
+                            alt="Facebook Icon" class="icon" /></a>
+                    <a href="https://twitter.com/adobe" target="_blank"><img src="images/Twitter Icon.png"
+                            alt="Twitter Icon" class="icon" /></a>
+                </div>
+                <div class="col-sm-6 copyright">
+                    <p><em>© 2023 Adobe. All rights reserved.</em></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        let linkName, linkURL;
+        function onClickAnchor() {
+            linkName = event.target.text;
+            linkURL = event.target.href;
+            console.log(linkName);
+            window.adobeDataLayer.push({
+                "event": "Link Click",
+                "link": {
+                    "name": linkName,
+                    "URL": linkURL
+                }
+            })
+        }
+    </script>
+
+    <script src="js/agenda.js"></script>
+</body>
+
+</html>
