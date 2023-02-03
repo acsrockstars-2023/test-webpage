@@ -61,6 +61,7 @@
     box-shadow: 2px 1000px 1px #fff inset;
     border-radius: 0.45rem;
     padding-bottom: 1rem;
+    height: 25rem;
 }
 
 .card-body p.card-title,
@@ -105,4 +106,45 @@
 hr {
     color: #9b261b !important;
     border-top: 1px solid !important;
+}
+
+@media screen and (max-width:767.5px){
+
+    .card-body{
+        height: 30rem;
+    }
+
+}
+
+@media screen and (max-width:668.5px){
+
+    .card-body{
+        height: 29rem;
+    }
+
+}
+
+@media screen and (max-width:609.5px){
+
+    .card-body{
+        height: 28rem;
+    }
+
+}
+
+
+@media screen and (max-width:550.5px){
+
+    .card-body{
+        height: 26rem;
+    }
+
+}
+
+@media screen and (max-width:472.5px){
+
+    .card-body{
+        height: 25rem;
+    }
+
 }
