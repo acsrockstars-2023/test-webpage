@@ -76,6 +76,7 @@
 .card-body p.card-title {
     color: black;
     font-family: "Adobe Clean";
+    min-height: 3rem;
 }
 
 .for-bg {
