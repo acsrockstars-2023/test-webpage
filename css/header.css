@@ -33,7 +33,9 @@
 }
 
 
-
+.navbar.navbar-expand-lg{
+    padding: 2rem 1.5rem;
+}
 
 .bg-rr .navbar-nav .nav-item .nav-link-1 {
     color: white;
@@ -49,6 +51,7 @@
 
 .navbar .navbar-brand {
     margin: 0;
+    width: 35%;
 }
 
 .navbar .navbar-brand .header-navbar-logo {
@@ -240,4 +243,42 @@ nav {
     .full-carousel {
         padding: 0;
     }
+}
+
+@media screen and (max-width: 1199.5px){
+    .navbar .navbar-brand {
+        margin: 0;
+        width: 30%;
+    }
+
+    .navbar .navbar-brand .header-navbar-logo{
+        /* margin: 0; */
+        width: 70%;
+    }
+
+
+}
+
+
+@media screen and (max-width: 603.5px){
+
+    .navbar .navbar-brand .header-navbar-logo{
+        /* margin: 0; */
+        width: 90%;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 448.5px){
+
+    .navbar .navbar-brand .header-navbar-logo{
+        /* margin: 0; */
+        width: 115%;
+    }
+
+
 }
