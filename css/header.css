@@ -34,7 +34,7 @@
 
 
 .navbar.navbar-expand-lg{
-    padding: 2rem 1.5rem;
+    padding: 1.25rem 1.5rem;
 }
 
 .bg-rr .navbar-nav .nav-item .nav-link-1 {
@@ -56,7 +56,7 @@
 
 .navbar .navbar-brand .header-navbar-logo {
     padding-left: 4rem;
-    width: 65%;
+    width: 57%;
 }
 
 .collapse {
@@ -237,6 +237,7 @@ nav {
         display: none;
     }
 
+   
 }
 
 @media screen and (max-width: 300px) {
@@ -267,8 +268,16 @@ nav {
         width: 90%;
     }
 
+    .navbar.navbar-expand-lg{
+        padding: 0;
+    }
+
+
 
 }
+
+
+
 
 
 
