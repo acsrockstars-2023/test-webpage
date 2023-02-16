@@ -25,7 +25,7 @@
 }
 
 .cmp-team-container {
-    padding-top: 2rem;
+    padding-top: 1rem;
     background: #e6e6e6;
 }
 
@@ -48,6 +48,8 @@
 .column-left-image {
     padding-left: 3rem;
 }
+
+
 
 .card-body-wrapper {
     display: flex;
@@ -78,6 +80,22 @@
     margin: 1rem;
 }
 
+@media screen and (max-width: 400px) {
+    .card-body-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-body-wrapper .card-content{
+        text-align: center;
+        font-size: xx-small;
+    }
+
+    .container-wrapper{
+        padding: 3rem 1rem 0 1rem;
+    }
+}
+
 .card-body-wrapper .card-img {
     width: 30%;
     /* height: auto; */
@@ -105,6 +123,12 @@
 .card-body-wrapper .card-img img {
     border-radius: 50%;
     width: 85%;
+}
+
+@media screen and (max-width: 767.5px) {
+    .column-left-image img{
+        display: none;
+    }
 }
 
 .scrollable {

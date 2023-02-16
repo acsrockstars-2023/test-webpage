@@ -108,6 +108,12 @@ hr {
     border-top: 1px solid !important;
 }
 
+@media screen and (min-width:1476.5px){
+    .card-body{
+        height: 27rem;
+    }
+}
+
 @media screen and (max-width:767.5px){
 
     .card-body{

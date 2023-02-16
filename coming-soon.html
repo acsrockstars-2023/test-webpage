@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sorry!</title>
 
+    <script>
+        //Initializing the data layer on the window object
+        window.adobeDataLayer = window.adobeDataLayer || [];
+    </script>
+<script src="https://assets.adobedtm.com/375dd7124b0f/5e39d7d199b9/launch-cc5020831934.min.js" async></script>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
@@ -27,6 +33,7 @@
 
     <link rel="stylesheet" href="css/coming-soon.css" />
     <link rel="stylesheet" href="css/header.css" />
+    <link rel="icon" type="image/x-icon" href="images/logo-1.ico">
   </head>
   <body>
     <nav class="navbar navbar-light navbar-expand-lg bg-for-hp">
@@ -76,6 +83,21 @@
       ><button><span>Go to Home</span></button></a
     >
     
+    <script>
+        let linkName, linkURL;
+        function onClickAnchor() {
+            linkName = event.target.text;
+            linkURL = event.target.href;
+            console.log(linkName);
+            window.adobeDataLayer.push({
+                "event": "Link Click",
+                "link": {
+                    "name": linkName,
+                    "URL": linkURL
+                }
+            })
+        }
+    </script>
 
   </body>
 </html>
