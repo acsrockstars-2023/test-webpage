@@ -5,11 +5,15 @@
 
 
 .rr-desc {
-  background-image: url("../images/rr-bg.jpg");
+  /* background-image: url("../images/rr-bg.jpg");
   height: 100%;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+  background-size: cover; */
+}
+
+.normal-text{
+  color: black;
 }
 
 .rr-2 {
