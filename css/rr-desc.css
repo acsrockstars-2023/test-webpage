@@ -5,11 +5,11 @@
 
 
 .rr-desc {
-  /* background-image: url("../images/rr-bg.jpg");
+  background-image: url("../images/rr-bg.jpg");
   height: 100%;
   background-position: center;
   background-repeat: repeat;
-  background-size: cover; */
+  background-size: cover;
 }
 
 .normal-text{
@@ -80,7 +80,7 @@ hr {
 }
 
 .rr-bottom {
-  /* background-image: url("../images/rr-bg.png"); */
+  background-image: url("../images/rr-bg.png");
 }
 
 .inside-bg {
@@ -117,16 +117,39 @@ hr {
   }
 }
 
+.card-body{
+    height: 13rem;
+}
+
+.card{
+    border-radius: 5px !important;
+    border: solid 3px transparent !important;
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0)
+      ),
+      linear-gradient(90deg, #d20be1, #ca403b);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px rgb(0, 0, 0) inset;
+      margin: 1rem;
+}
+
+.carousel-card-desc, .card-text{
+    color: white;
+}
+
 .awards .awards-desc {
   flex: 7;
 }
 
 .nomination-buttons {
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   gap: 3rem;
   margin: 3rem 3rem;
+  padding: 1rem;
   /* padding-bottom: 2rem; */
 }
 
@@ -266,7 +289,7 @@ hr {
 
 
   .rr-2 {
-    /* background-image: url("../images/rr-bg.png"); */
+    background-image: url("../images/rr-bg.png");
     font-size: 1rem;
     text-align: justify;
   }
@@ -301,4 +324,48 @@ hr {
   .nom-items-2 img {
     width: 130%;
   }
+
+  .card-img{
+    display: none;
+  }
+
+  .card-body{
+    height: 15rem;
+  }
+
+  .carousel-card-desc .card-title{
+    font-size: medium;
+  }
+
+  .carousel-card-desc .card-subtitle{
+    font-size: small;
+  }
+
+  .card-text{
+    font-size: smaller;
+  }
+}
+
+.acs-testimonials .carousel-control-next-icon{
+    background-color: rgb(210, 11, 225, 0.5);
+    border-radius: 0.1rem;
+    padding: 0.5rem;
+}
+
+.acs-testimonials .carousel-control-prev-icon {
+    background-color: rgb(202, 64, 59, 0.5);
+    border-radius: 0.1rem;
+    padding: 0.2rem;
+}
+
+.acs-testimonials .carousel-control-next-icon:hover{
+    background-color: rgb(210, 11, 225, 0.7);
+    border-radius: 0.1rem;
+    padding: 0.5rem;
+}
+
+.acs-testimonials .carousel-control-prev-icon:hover {
+    background-color: rgb(202, 64, 59, 0.7);
+    border-radius: 0.1rem;
+    padding: 0.2rem;
 }
