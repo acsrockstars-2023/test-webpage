@@ -52,6 +52,7 @@ h1 {
     background-color: transparent;
     font-family: "Adobe Clean";
     color: white;
+    font-size: large;
 }
 
 .agenda-buttons button:hover {
@@ -66,8 +67,12 @@ h1 {
     padding: 2rem;
 }
 
+.agenda-svg .agenda-text-content {
+    font-size: large;
+}
+
 .agenda-svg svg {
-    height: 70rem;
+    height: 50rem;
     width: 100%;
 }
 
@@ -90,4 +95,24 @@ h1 {
         height: 20rem;
         width: 100%;
     }
+}
+
+.event-location{
+    padding: 5rem;
+    text-align: center;
+    /* display: flex; */
+}
+
+.location-map{
+    padding: 5rem;
+}
+
+.location-header{
+    font-family: "Adobe Clean";
+    color: #eb100e;
+    /* padding: 5rem; */
+}
+
+.underline{
+    text-decoration: underline;
 }

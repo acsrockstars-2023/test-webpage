@@ -12,11 +12,13 @@ document.addEventListener('click', (e) => {
     if(buttonClass == "agenda-bangalore"){
         // console.log("bangalore")
         $(".agenda-content-bangalore").removeClass("d-none");
+        $(".agenda-bangalore").addClass("keep-underline");
         // $(".agenda-bangalore").removeClass("underline-content");
         isVisibleB=true;
         if(isVisibleN == true)
         {
             $(".agenda-content-noida").addClass("d-none");
+            $(".agenda-noida").removeClass("keep-underline");
             // $(".agenda-bangalore").addClass("underline-content");
         }
     } 
@@ -24,11 +26,13 @@ document.addEventListener('click', (e) => {
     if(buttonClass == "agenda-noida"){
         // console.log("noida")
         $(".agenda-content-noida").removeClass("d-none");
+        $(".agenda-noida").addClass("keep-underline");
         // $(".agenda-noida").removeClass("underline-content");
         isVisibleN = true;
         if(isVisibleB == true)
         {
             $(".agenda-content-bangalore").addClass("d-none");
+            $(".agenda-bangalore").removeClass("keep-underline");
             // $(".agenda-bangalore").addClass("underline-content");
         }
     }
